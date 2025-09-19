@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-background: #ffffff;
+  --color-background: #f5f5f5;
   --color-foreground: #171717;
   --color-border: #e5e7eb;
   --color-primary: #3498db;
@@ -26,6 +26,10 @@
 
 @utility bg-background {
   background-color: var(--color-background);
+}
+
+@utility bg-card {
+  background-color: #ffffff;
 }
 
 @utility text-foreground {
@@ -1017,19 +1021,20 @@ body {
 
 
 
-/* Dark mode support */
+/* Dark mode support - disabled for studio compatibility */
 @media (prefers-color-scheme: dark) {
   @theme inline {
-    --color-background: #0a0a0a;
-    --color-foreground: #ededed;
-    --color-border: #27272a;
-    --color-primary: #3b82f6;
-    --color-secondary: #1f2937;
-    --color-muted: #6b7280;
-    --color-accent: #06b6d4;
-    --color-destructive: #ef4444;
-    --color-success: #10b981;
-    --color-warning: #f59e0b;
+    /* Keep light background for studio compatibility */
+    --color-background: #f5f5f5;
+    --color-foreground: #171717;
+    --color-border: #e5e7eb;
+    --color-primary: #3498db;
+    --color-secondary: #f8f9fa;
+    --color-muted: #6c757d;
+    --color-accent: #17a2b8;
+    --color-destructive: #e74c3c;
+    --color-success: #28a745;
+    --color-warning: #f39c12;
   }
 }
 
