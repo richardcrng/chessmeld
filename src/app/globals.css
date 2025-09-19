@@ -1207,6 +1207,27 @@ body {
   min-height: fit-content; /* Allow content to determine height */
   max-height: 60vh; /* Increased to show more content */
   overflow-y: auto; /* Allow scrolling if content exceeds max-height */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 #f1f5f9;
+}
+
+.compact-move-history__expanded::-webkit-scrollbar {
+  width: 6px;
+}
+
+.compact-move-history__expanded::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 3px;
+}
+
+.compact-move-history__expanded::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.compact-move-history__expanded::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
 }
 
 /* Mobile responsive adjustments for expanded state */
@@ -1291,7 +1312,7 @@ body {
   gap: 2px;
   padding: 6px 8px;
   background: #f8fafc;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #d1d5db;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -1299,6 +1320,8 @@ body {
   font-family: 'Courier New', monospace;
   white-space: nowrap;
   flex-shrink: 0;
+  color: #374151;
+  font-weight: 500;
 }
 
 .compact-move-history__mainline-move:hover {
@@ -1510,5 +1533,18 @@ body {
   .compact-move-history__variation:hover {
     transform: none;
   }
+}
+
+/* Explore mode specific styles for move history */
+.explore-move-history {
+  flex: 1;
+  min-height: fit-content; /* Allow content to determine height */
+  max-height: 70vh; /* More generous to allow expansion */
+  overflow-y: auto; /* Allow scrolling if needed */
+}
+
+.explore-move-history .compact-move-history__expanded {
+  max-height: none; /* Remove height constraint in explore mode */
+  overflow-y: visible; /* Allow natural flow */
 }
 
