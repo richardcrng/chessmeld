@@ -1,0 +1,48 @@
+{
+  "schema": "cmf.v0.0.1",
+  "meta": {
+    "id": "ruy-lopez-demo",
+    "title": "Ruy Lopez Opening",
+    "author": "Chessmeld Demo",
+    "createdAt": "2025-01-09T10:00:00Z",
+    "startingFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "durationMs": 30000,
+    "tags": ["opening", "ruy-lopez", "e4-e5"],
+    "engineHints": true,
+    "audioUrl": "/audio/ruy-lopez.mp3"
+  },
+  "tracks": {
+    "mainline": [
+      { "t": 0, "type": "text", "text": "Welcome to the Ruy Lopez opening!" },
+      { "t": 2000, "type": "move", "san": "e4" },
+      { "t": 3000, "type": "annotate", "arrows": [["e2", "e4"]], "circles": ["e4"] },
+      { "t": 4000, "type": "text", "text": "White starts with the king's pawn advance." },
+      { "t": 5000, "type": "move", "san": "e5" },
+      { "t": 6000, "type": "annotate", "arrows": [["e7", "e5"]], "circles": ["e5"] },
+      { "t": 7000, "type": "text", "text": "Black responds symmetrically with e5." },
+      { "t": 8000, "type": "move", "san": "Nf3" },
+      { "t": 9000, "type": "annotate", "arrows": [["g1", "f3"]], "circles": ["f3"] },
+      { "t": 10000, "type": "text", "text": "White develops the knight to f3, attacking the e5 pawn." },
+      { "t": 11000, "type": "move", "san": "Nc6" },
+      { "t": 12000, "type": "annotate", "arrows": [["b8", "c6"]], "circles": ["c6"] },
+      { "t": 13000, "type": "text", "text": "Black defends with Nc6, the most common response." },
+      { "t": 14000, "type": "move", "san": "Bb5" },
+      { "t": 15000, "type": "annotate", "arrows": [["f1", "b5"]], "circles": ["b5"] },
+      { "t": 16000, "type": "text", "text": "And now the Ruy Lopez! White pins the knight with Bb5." },
+      { "t": 17000, "type": "pausepoint", "id": "ruy-lopez-intro", "prompt": "This is the starting position of the Ruy Lopez. Try exploring the position!" },
+      { "t": 20000, "type": "move", "san": "a6" },
+      { "t": 21000, "type": "annotate", "arrows": [["a7", "a6"]], "circles": ["a6"] },
+      { "t": 22000, "type": "text", "text": "The Morphy Defense - Black asks the bishop what it's doing." },
+      { "t": 23000, "type": "move", "san": "Ba4" },
+      { "t": 24000, "type": "annotate", "arrows": [["b5", "a4"]], "circles": ["a4"] },
+      { "t": 25000, "type": "text", "text": "White retreats to a4, maintaining the pin on the knight." },
+      { "t": 26000, "type": "move", "san": "Nf6" },
+      { "t": 27000, "type": "annotate", "arrows": [["g8", "f6"]], "circles": ["f6"] },
+      { "t": 28000, "type": "text", "text": "Black develops the knight to f6, completing the opening setup." },
+      { "t": 29000, "type": "text", "text": "This completes our introduction to the Ruy Lopez opening!" }
+    ]
+  },
+  "overlays": {
+    "legend": "Yellow circles = piece destinations; arrows = move directions."
+  }
+}

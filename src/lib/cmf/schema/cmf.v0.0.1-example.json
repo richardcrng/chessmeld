@@ -1,0 +1,287 @@
+{
+  "schema": "cmf.v0.0.1",
+  "meta": {
+    "id": "example-graph-branching",
+    "title": "Ruy Lopez with Graph Structure",
+    "author": "ChessMeld Studio",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "startingFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "durationMs": 120000,
+    "tags": ["opening", "ruy-lopez", "graph-structure"]
+  },
+  "rootNodeId": "root",
+  "nodes": {
+    "root": {
+      "id": "root",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "children": [
+        {
+          "move": "e4",
+          "nodeId": "e4"
+        }
+      ]
+    },
+    "e4": {
+      "id": "e4",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "parents": [
+        {
+          "nodeId": "root",
+          "move": "e4"
+        }
+      ],
+      "children": [
+        {
+          "move": "e5",
+          "nodeId": "e4e5"
+        }
+      ]
+    },
+    "e4e5": {
+      "id": "e4e5",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "parents": [
+        {
+          "nodeId": "e4",
+          "move": "e5"
+        }
+      ],
+      "children": [
+        {
+          "move": "Nf3",
+          "nodeId": "e4e5Nf3",
+        }
+      ]
+    },
+    "e4e5Nf3": {
+      "id": "e4e5Nf3",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKBNR b KQkq - 1 2",
+      "parents": [
+        {
+          "nodeId": "e4e5",
+          "move": "Nf3"
+        }
+      ],
+      "children": [
+        {
+          "move": "Nc6",
+          "nodeId": "e4e5Nf3Nc6",
+        }
+      ]
+    },
+    "e4e5Nf3Nc6": {
+      "id": "e4e5Nf3Nc6",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKBNR w KQkq - 2 3",
+      "parents": [
+        {
+          "nodeId": "e4e5Nf3",
+          "move": "Nc6"
+        }
+      ],
+      "children": [
+        {
+          "move": "Bb5",
+          "nodeId": "e4e5Nf3Nc6Bb5",
+        }
+      ]
+    },
+    "e4e5Nf3Nc6Bb5": {
+      "id": "e4e5Nf3Nc6Bb5",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQKBNR b KQkq - 3 3",
+      "parents": [
+        {
+          "nodeId": "e4e5Nf3Nc6",
+          "move": "Bb5"
+        }
+      ],
+      "children": [
+        {
+          "move": "a6",
+          "nodeId": "e4e5Nf3Nc6Bb5a6",
+        }
+      ]
+    },
+    "e4e5Nf3Nc6Bb5a6": {
+      "id": "e4e5Nf3Nc6Bb5a6",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQKBNR w KQkq - 0 4",
+      "parents": [
+        {
+          "nodeId": "e4e5Nf3Nc6Bb5",
+          "move": "a6"
+        }
+      ],
+      "children": [
+        {
+          "move": "Ba4",
+          "nodeId": "e4e5Nf3Nc6Bb5a6Ba4",
+        },
+        {
+          "move": "Bxc6",
+          "nodeId": "e4e5Nf3Nc6Bb5a6Bxc6",
+        }
+      ]
+    },
+    "e4e5Nf3Nc6Bb5a6Ba4": {
+      "id": "e4e5Nf3Nc6Bb5a6Ba4",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQKBNR b KQkq - 1 4",
+      "parents": [
+        {
+          "nodeId": "e4e5Nf3Nc6Bb5a6",
+          "move": "Ba4"
+        }
+      ],
+      "children": [
+        {
+          "move": "b5",
+          "nodeId": "e4e5Nf3Nc6Bb5a6Ba4b5",
+        }
+      ]
+    },
+    "e4e5Nf3Nc6Bb5a6Ba4b5": {
+      "id": "e4e5Nf3Nc6Bb5a6Ba4b5",
+      "fen": "r1bqkbnr/2pp1ppp/p1n5/1p2p3/B3P3/5N2/PPPP1PPP/RNBQKBNR w KQkq b6 0 5",
+      "parents": [
+        {
+          "nodeId": "e4e5Nf3Nc6Bb5a6Ba4",
+          "move": "b5"
+        }
+      ],
+      "children": [
+        {
+          "move": "Bb3",
+          "nodeId": "e4e5Nf3Nc6Bb5a6Ba4b5Bb3",
+        }
+      ]
+    },
+    "e4e5Nf3Nc6Bb5a6Ba4b5Bb3": {
+      "id": "e4e5Nf3Nc6Bb5a6Ba4b5Bb3",
+      "fen": "r1bqkbnr/2pp1ppp/p1n5/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQKBNR b KQkq - 1 5",
+      "parents": [
+        {
+          "nodeId": "e4e5Nf3Nc6Bb5a6Ba4b5",
+          "move": "Bb3"
+        }
+      ]
+    },
+    "e4e5Nf3Nc6Bb5a6Bxc6": {
+      "id": "e4e5Nf3Nc6Bb5a6Bxc6",
+      "fen": "r1bqkbnr/1ppp1ppp/p7/4p3/4P3/5N2/PPPP1PPP/RNBQKBNR w KQkq - 0 4",
+      "parents": [
+        {
+          "nodeId": "e4e5Nf3Nc6Bb5a6",
+          "move": "Bxc6"
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "t": 0,
+      "type": "text",
+      "nodeId": "root",
+      "text": "Welcome to this Ruy Lopez analysis with graph structure!"
+    },
+    {
+      "t": 5000,
+      "type": "move",
+      "nodeId": "e4",
+      "san": "e4",
+      "comment": "The most popular opening move"
+    },
+    {
+      "t": 10000,
+      "type": "move",
+      "nodeId": "e4e5",
+      "san": "e5",
+      "comment": "Black responds with the King's Pawn Game"
+    },
+    {
+      "t": 15000,
+      "type": "move",
+      "nodeId": "e4e5Nf3",
+      "san": "Nf3",
+      "comment": "White develops the knight, attacking the e5 pawn"
+    },
+    {
+      "t": 20000,
+      "type": "move",
+      "nodeId": "e4e5Nf3Nc6",
+      "san": "Nc6",
+      "comment": "Black defends the pawn with the knight"
+    },
+    {
+      "t": 25000,
+      "type": "move",
+      "nodeId": "e4e5Nf3Nc6Bb5",
+      "san": "Bb5",
+      "comment": "The Ruy Lopez begins! White pins the knight"
+    },
+    {
+      "t": 30000,
+      "type": "move",
+      "nodeId": "e4e5Nf3Nc6Bb5a6",
+      "san": "a6",
+      "comment": "Black asks the bishop what it's doing"
+    },
+    {
+      "t": 35000,
+      "type": "text",
+      "nodeId": "e4e5Nf3Nc6Bb5a6",
+      "text": "Here we have a choice: Ba4 (main line) or Bxc6 (exchange variation)"
+    },
+    {
+      "t": 40000,
+      "type": "move",
+      "nodeId": "e4e5Nf3Nc6Bb5a6Ba4",
+      "san": "Ba4",
+      "comment": "Main line: retreating the bishop"
+    },
+    {
+      "t": 45000,
+      "type": "move",
+      "nodeId": "e4e5Nf3Nc6Bb5a6Ba4b5",
+      "san": "b5",
+      "comment": "Black continues the attack on the bishop"
+    },
+    {
+      "t": 50000,
+      "type": "move",
+      "nodeId": "e4e5Nf3Nc6Bb5a6Ba4b5Bb3",
+      "san": "Bb3",
+      "comment": "White retreats to safety"
+    },
+    {
+      "t": 55000,
+      "type": "annotate",
+      "nodeId": "e4e5Nf3Nc6Bb5a6Ba4b5Bb3",
+      "arrows": [
+        {
+          "from": "b3",
+          "to": "f7",
+          "color": "yellow"
+        }
+      ],
+      "note": "The bishop eyes the f7 square"
+    },
+    {
+      "t": 60000,
+      "type": "text",
+      "nodeId": "e4e5Nf3Nc6Bb5a6Bxc6",
+      "text": "Alternative: Bxc6 exchange variation"
+    },
+    {
+      "t": 65000,
+      "type": "move",
+      "nodeId": "e4e5Nf3Nc6Bb5a6Bxc6",
+      "san": "Bxc6",
+      "comment": "Exchange variation: simplifying the position"
+    },
+    {
+      "t": 70000,
+      "type": "pausepoint",
+      "nodeId": "e4e5Nf3Nc6Bb5a6Bxc6",
+      "id": "pause1",
+      "prompt": "Which variation do you prefer?"
+    }
+  ]
+}

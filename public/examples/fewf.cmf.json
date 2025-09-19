@@ -1,0 +1,155 @@
+{
+  "schema": "cmf.v0.0.1",
+  "meta": {
+    "id": "2484af99-a699-4881-96fa-6c5d840f9829",
+    "title": "fefw",
+    "author": "fewfew",
+    "createdAt": "2025-09-11T03:52:24.907Z",
+    "startingFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "durationMs": 57455,
+    "tags": [],
+    "engineHints": true,
+    "audioUrl": "/audio/fefw.webm"
+  },
+  "tracks": {
+    "mainline": [
+      {
+        "t": 1048,
+        "type": "text",
+        "text": "I am again just recording an opening video with no particular content."
+      },
+      {
+        "t": 8300,
+        "type": "move",
+        "san": "e4"
+      },
+      {
+        "t": 8490,
+        "type": "text",
+        "text": "We're going to look at a response to the Scandinavian called the Black Mardi Gambit or something like that."
+      },
+      {
+        "t": 11000,
+        "type": "move",
+        "san": "d5"
+      },
+      {
+        "t": 12301,
+        "type": "move",
+        "san": "d4"
+      },
+      {
+        "t": 15923,
+        "type": "text",
+        "text": "So Black takes and we play our knight out."
+      },
+      {
+        "t": 16622,
+        "type": "move",
+        "san": "dxe4"
+      },
+      {
+        "t": 19600,
+        "type": "move",
+        "san": "Nc3"
+      },
+      {
+        "t": 21006,
+        "type": "move",
+        "san": "Nf6"
+      },
+      {
+        "t": 22083,
+        "type": "text",
+        "text": "Black returns the knight out and now we have the gambit here."
+      },
+      {
+        "t": 22399,
+        "type": "move",
+        "san": "f3"
+      },
+      {
+        "t": 25003,
+        "type": "text",
+        "text": "Gambiting a second pawn."
+      },
+      {
+        "t": 25699,
+        "type": "move",
+        "san": "exf3"
+      },
+      {
+        "t": 27699,
+        "type": "move",
+        "san": "Nxf3"
+      },
+      {
+        "t": 28209,
+        "type": "text",
+        "text": "And this is the gambit accepted."
+      },
+      {
+        "t": 32192,
+        "type": "text",
+        "text": "What kind of things do we do after this?"
+      },
+      {
+        "t": 35642,
+        "type": "text",
+        "text": "Well, let's see."
+      },
+      {
+        "t": 39361,
+        "type": "text",
+        "text": "Let's see."
+      },
+      {
+        "t": 39399,
+        "type": "move",
+        "san": "Nc6"
+      },
+      {
+        "t": 40986,
+        "type": "text",
+        "text": "What happens if black plays knight here?"
+      },
+      {
+        "t": 45199,
+        "type": "move",
+        "san": "d5"
+      },
+      {
+        "t": 46300,
+        "type": "text",
+        "text": "I think we push up horn."
+      },
+      {
+        "t": 47999,
+        "type": "move",
+        "san": "Nb4"
+      },
+      {
+        "t": 50284,
+        "type": "text",
+        "text": "Knight here."
+      },
+      {
+        "t": 53398,
+        "type": "move",
+        "san": "Bc4"
+      },
+      {
+        "t": 54266,
+        "type": "text",
+        "text": "Maybe we protect it."
+      },
+      {
+        "t": 57455,
+        "type": "text",
+        "text": "Something like that, I don't know."
+      }
+    ]
+  },
+  "overlays": {},
+  "precomputed": []
+}

@@ -1,0 +1,623 @@
+{
+  "$id": "https://schemas.chessmeld.com/cmf.v0.0.1.json",
+  "title": "Chessmeld Meld Format (CMF) v0.0.1",
+  "description": "The Chessmeld Meld Format (CMF) v0.0.1 uses a graph structure for positions and a flat chronological event list for audio-synced content, enabling efficient representation of complex branching with linear event processing. Includes legal policy system for flexible recording modes.",
+  "type": "object",
+  "required": ["schema", "meta", "nodes", "rootNodeId", "events"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "cmf.v0.0.1",
+      "description": "Identifies the schema version; must be 'cmf.v0.0.1' for this version."
+    },
+
+    "meta": {
+      "type": "object",
+      "description": "Metadata describing the chess game, including identifiers, authorship, timing, and initial board state.",
+      "required": ["id", "title", "author", "createdAt", "startingFen", "durationMs"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Unique identifier for this meld document."
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The title or name of the chess game or analysis."
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name of the individual or entity that created this meld."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp indicating when this meld was created, in ISO 8601 format."
+        },
+        "startingFen": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The Forsyth-Edwards Notation (FEN) string representing the initial board position of the game."
+        },
+        "audioUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "Optional URI linking to an audio commentary or related media."
+        },
+        "transcriptUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "Optional URI linking to a transcript file with word-level timestamps (e.g., WhisperX output). When present, enables enhanced transcript display with word-level highlighting and precise timing. The transcript file should contain the full transcription service response with segments and word-level timing data."
+        },
+        "durationMs": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Duration in milliseconds representing the total playback or presentation length of the meld."
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true,
+          "description": "An optional list of tags or keywords categorizing or describing the meld."
+        },
+        "engineHints": {
+          "type": "boolean",
+          "default": false,
+          "description": "Flag indicating whether engine evaluation hints should be displayed during playback."
+        }
+      }
+    },
+
+    "recordingDefaults": {
+      "type": "object",
+      "description": "Default settings used during recording, including legal policy and validation rules.",
+      "additionalProperties": false,
+      "properties": {
+        "legalPolicy": {
+          "type": "string",
+          "enum": ["strict", "pieceLegal", "none"],
+          "default": "strict",
+          "description": "The legal policy used for move validation during recording. 'strict' enforces full chess rules, 'pieceLegal' allows piece-legal moves without turn alternation, 'none' allows any moves."
+        }
+      }
+    },
+
+    "rootNodeId": {
+      "type": "string",
+      "description": "The FEN string of the root position in the nodes collection."
+    },
+
+    "nodes": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/definitions/PositionNode" },
+      "description": "Collection of all position nodes in the game tree, indexed by FEN string. Each FEN string uniquely identifies a chess position."
+    },
+
+    "overlays": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Visual overlay elements that can be displayed on the board, such as legends or annotations.",
+      "properties": {
+        "legend": {
+          "type": "string",
+          "description": "A textual legend or explanation for symbols and annotations used in the meld."
+        }
+      }
+    },
+
+    "precomputed": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/PrecomputedEval" },
+      "uniqueItems": false,
+      "description": "An optional list of precomputed engine evaluation data for specific board positions to enhance analysis."
+    },
+
+    "events": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/Event" },
+      "description": "Chronological list of all events (moves, annotations, text, pauses) that occur during the game."
+    }
+  },
+
+  "definitions": {
+    "TimestampMs": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "A timestamp in milliseconds indicating when an event occurs relative to the start of the meld."
+    },
+
+    "ColorSquare": {
+      "type": "string",
+      "pattern": "^[a-h][1-8]$",
+      "description": "A chessboard square identified by file (a-h) and rank (1-8), used for annotations and move references."
+    },
+
+    "ColoredArrow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from", "to"],
+      "description": "An arrow annotation with color information.",
+      "properties": {
+        "from": {
+          "$ref": "#/definitions/ColorSquare",
+          "description": "The starting square of the arrow."
+        },
+        "to": {
+          "$ref": "#/definitions/ColorSquare",
+          "description": "The ending square of the arrow."
+        },
+        "color": {
+          "type": "string",
+          "enum": ["green", "red", "yellow", "blue"],
+          "default": "yellow",
+          "description": "The color of the arrow annotation."
+        }
+      }
+    },
+
+    "ColoredSquare": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["square"],
+      "description": "A square annotation with color information.",
+      "properties": {
+        "square": {
+          "$ref": "#/definitions/ColorSquare",
+          "description": "The chessboard square to annotate."
+        },
+        "color": {
+          "type": "string",
+          "enum": ["green", "red", "yellow", "blue"],
+          "default": "yellow",
+          "description": "The color of the square annotation."
+        }
+      }
+    },
+
+    "EventBase": {
+      "type": "object",
+      "required": ["t", "type"],
+      "description": "Base structure for all event types, including a timestamp and event type identifier.",
+      "properties": {
+        "t": {
+          "$ref": "#/definitions/TimestampMs",
+          "description": "Timestamp in milliseconds when this event occurs."
+        },
+        "type": {
+          "type": "string",
+          "description": "The type of event, used to distinguish among move, annotation, text, pause, and branch events."
+        }
+      }
+    },
+
+    "MoveEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Event representing a chess move with explicit square coordinates, legal policy, FEN position, and optional SAN notation.",
+      "required": ["t", "type", "from", "to", "legalPolicy", "color", "fen"],
+      "properties": {
+        "t": {
+          "$ref": "#/definitions/TimestampMs",
+          "description": "Timestamp in milliseconds when this event occurs."
+        },
+        "type": { "const": "move" },
+        "from": {
+          "$ref": "#/definitions/ColorSquare",
+          "description": "The source square of the move."
+        },
+        "to": {
+          "$ref": "#/definitions/ColorSquare",
+          "description": "The destination square of the move."
+        },
+        "promo": {
+          "type": "string",
+          "enum": ["q", "r", "b", "n"],
+          "description": "Promotion piece if this is a promotion move."
+        },
+        "legalPolicy": {
+          "type": "string",
+          "enum": ["strict", "pieceLegal", "none"],
+          "description": "The legal policy used to validate this move."
+        },
+        "color": {
+          "type": "string",
+          "enum": ["w", "b"],
+          "description": "The color of the player who made this move ('w' for white, 'b' for black)."
+        },
+        "moveNumber": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Optional move number in the game sequence. In standard chess, this represents the full move number (1, 2, 3, etc.) where each move number includes both white and black moves. May be omitted in non-standard modes like Classroom or Free mode where consecutive moves by the same color don't increment the turn number."
+        },
+        "san": {
+          "type": "string",
+          "description": "Standard Algebraic Notation for the move, if applicable."
+        },
+        "comment": {
+          "type": "string",
+          "description": "Optional textual commentary or explanation associated with the move."
+        },
+        "fen": {
+          "type": "string",
+          "description": "FEN (Forsyth-Edwards Notation) string representing the position after this move is applied. This provides the complete board state including piece positions, active color, castling rights, en passant target, halfmove clock, and fullmove number. Required for state verification and debugging."
+        }
+      }
+    },
+
+    "EditEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Event for directly editing board state, such as placing pieces or setting game properties.",
+      "required": ["t", "type"],
+      "properties": {
+        "t": {
+          "$ref": "#/definitions/TimestampMs",
+          "description": "Timestamp in milliseconds when this event occurs."
+        },
+        "type": {
+          "type": "string",
+          "enum": ["setPiece", "setTurn", "setCastling", "setEnPassant", "setClock", "setFen"],
+          "description": "The type of edit operation."
+        },
+        "square": {
+          "$ref": "#/definitions/ColorSquare",
+          "description": "The square being edited (for setPiece, setEnPassant)."
+        },
+        "piece": {
+          "type": "string",
+          "enum": ["K", "Q", "R", "B", "N", "P", "k", "q", "r", "b", "n", "p"],
+          "description": "The piece to place (for setPiece). null means remove piece."
+        },
+        "color": {
+          "type": "string",
+          "enum": ["w", "b"],
+          "description": "The color to set (for setTurn)."
+        },
+        "white": {
+          "type": "string",
+          "enum": ["", "K", "Q", "KQ"],
+          "description": "White castling rights (for setCastling)."
+        },
+        "black": {
+          "type": "string",
+          "enum": ["", "k", "q", "kq"],
+          "description": "Black castling rights (for setCastling)."
+        },
+        "whiteMs": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "White's remaining time in milliseconds (for setClock)."
+        },
+        "blackMs": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Black's remaining time in milliseconds (for setClock)."
+        },
+        "fen": {
+          "type": "string",
+          "description": "Complete FEN string (for setFen)."
+        }
+      }
+    },
+
+    "SequenceEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Event for grouping related moves or operations into sequences.",
+      "required": ["t", "type"],
+      "properties": {
+        "t": {
+          "$ref": "#/definitions/TimestampMs",
+          "description": "Timestamp in milliseconds when this event occurs."
+        },
+        "type": {
+          "type": "string",
+          "enum": ["beginSetupSequence", "endSetupSequence"],
+          "description": "The type of sequence event."
+        },
+        "label": {
+          "type": "string",
+          "description": "Optional label for the sequence (for beginSetupSequence)."
+        },
+        "colorFocus": {
+          "type": "string",
+          "enum": ["w", "b"],
+          "description": "Optional color focus for the sequence (for beginSetupSequence)."
+        }
+      }
+    },
+
+    "AnnotateEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Event for adding visual annotations such as arrows, circles, highlights, and notes to the board.",
+      "required": ["t", "type", "fen"],
+      "properties": {
+        "t": {
+          "$ref": "#/definitions/TimestampMs",
+          "description": "Timestamp in milliseconds when this event occurs."
+        },
+        "type": { "const": "annotate" },
+        "fen": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The FEN string of the position this event relates to."
+        },
+        "arrows": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/ColoredArrow" },
+          "description": "List of arrows to be drawn on the board for visual emphasis."
+        },
+        "circles": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/ColoredSquare" },
+          "uniqueItems": false,
+          "description": "Squares to be circled on the board to highlight important positions."
+        },
+        "highlights": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/ColoredSquare" },
+          "uniqueItems": false,
+          "description": "Squares to be highlighted with background color to emphasize important positions."
+        },
+        "note": {
+          "type": "string",
+          "description": "Optional textual note providing additional explanation or commentary."
+        }
+      }
+    },
+
+    "TextEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Event containing arbitrary textual information to be displayed at a specific time.",
+      "required": ["t", "type", "text", "fen"],
+      "properties": {
+        "t": {
+          "$ref": "#/definitions/TimestampMs",
+          "description": "Timestamp in milliseconds when this event occurs."
+        },
+        "type": { "const": "text" },
+        "fen": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The FEN string of the position this event relates to."
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The textual content to display."
+        }
+      }
+    },
+
+    "PausePointEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Event marking a pause point in the meld, optionally including a prompt for user interaction.",
+      "required": ["t", "type", "id", "fen"],
+      "properties": {
+        "t": {
+          "$ref": "#/definitions/TimestampMs",
+          "description": "Timestamp in milliseconds when this event occurs."
+        },
+        "type": { "const": "pausepoint" },
+        "fen": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The FEN string of the position this event relates to."
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]{1,64}$",
+          "description": "Unique identifier for this pause point."
+        },
+        "prompt": {
+          "type": "string",
+          "description": "Optional prompt message displayed when the pause point is reached."
+        }
+      }
+    },
+
+    "ClearAnnotationsEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Event indicating that all annotations should be cleared from the board.",
+      "required": ["t", "type", "fen"],
+      "properties": {
+        "t": {
+          "$ref": "#/definitions/TimestampMs",
+          "description": "Timestamp in milliseconds when this clear event occurs."
+        },
+        "type": { "const": "clear" },
+        "fen": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The FEN string of the position this event relates to."
+        },
+        "comment": {
+          "type": "string",
+          "description": "Optional commentary about why annotations were cleared."
+        }
+      }
+    },
+
+    "NavigateEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Event representing navigation to a specific position in the game tree.",
+      "required": ["t", "type", "fen", "navigationType"],
+      "properties": {
+        "t": {
+          "$ref": "#/definitions/TimestampMs",
+          "description": "Timestamp in milliseconds when this navigation event occurs."
+        },
+        "type": { "const": "navigate" },
+        "fen": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The FEN string of the position being navigated to."
+        },
+        "navigationType": {
+          "type": "string",
+          "enum": ["to_node", "to_move_index", "back", "forward", "start", "latest"],
+          "description": "The type of navigation action performed."
+        },
+        "targetMoveIndex": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Optional move index when navigationType is 'to_move_index'."
+        },
+        "comment": {
+          "type": "string",
+          "description": "Optional commentary about the navigation action."
+        }
+      }
+    },
+
+    "Event": {
+      "oneOf": [
+        { "$ref": "#/definitions/MoveEvent" },
+        { "$ref": "#/definitions/EditEvent" },
+        { "$ref": "#/definitions/SequenceEvent" },
+        { "$ref": "#/definitions/AnnotateEvent" },
+        { "$ref": "#/definitions/TextEvent" },
+        { "$ref": "#/definitions/PausePointEvent" },
+        { "$ref": "#/definitions/ClearAnnotationsEvent" },
+        { "$ref": "#/definitions/NavigateEvent" }
+      ],
+      "description": "A union type representing any valid event that can occur in a node."
+    },
+
+    "PositionNode": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "A node in the game graph representing a chess position and its possible continuations. The FEN string serves as the unique identifier.",
+      "required": ["fen"],
+      "properties": {
+        "fen": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The Forsyth-Edwards Notation (FEN) string representing the board position at this node. This also serves as the unique identifier."
+        },
+        "children": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/ChildReference" },
+          "description": "References to child nodes representing possible moves from this position."
+        },
+        "parents": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/ParentReference" },
+          "description": "References to parent nodes that can reach this position."
+        },
+        "label": {
+          "type": "string",
+          "description": "Optional label or name for this node (useful for variations)."
+        },
+        "comment": {
+          "type": "string",
+          "description": "Optional commentary about this position or variation."
+        },
+        "moveNumber": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "The move number this position represents (0 for initial position)."
+        }
+      }
+    },
+
+    "ChildReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "A reference to a child node representing a move from a parent position.",
+      "required": ["move", "fen"],
+      "properties": {
+        "move": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The move in Standard Algebraic Notation (SAN) that leads to this child node."
+        },
+        "fen": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The FEN string of the child position."
+        },
+        "label": {
+          "type": "string",
+          "description": "Optional label for this move variation."
+        },
+        "comment": {
+          "type": "string",
+          "description": "Optional commentary about this move or variation."
+        }
+      }
+    },
+
+    "ParentReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "A reference to a parent node that can reach this position.",
+      "required": ["fen", "move"],
+      "properties": {
+        "fen": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The FEN string of the parent position."
+        },
+        "move": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The move from the parent that leads to this node."
+        },
+        "label": {
+          "type": "string",
+          "description": "Optional label for this parent relationship."
+        }
+      }
+    },
+
+    "PrecomputedEval": {
+      "type": "object",
+      "required": ["fen", "depth"],
+      "additionalProperties": false,
+      "description": "Precomputed engine evaluation data for a specific position, used to provide analysis insights.",
+      "properties": {
+        "fen": {
+          "type": "string",
+          "minLength": 1,
+          "description": "FEN string representing the board position evaluated."
+        },
+        "depth": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The search depth at which the evaluation was performed."
+        },
+        "cp": {
+          "type": "integer",
+          "description": "Centipawn evaluation score indicating positional advantage (positive for white, negative for black)."
+        },
+        "mate": {
+          "type": "integer",
+          "description": "Mate score indicating number of moves to mate (positive if white mates, negative if black mates)."
+        },
+        "best": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "maxItems": 5,
+          "description": "List of up to five best moves suggested by the engine for this position."
+        }
+      },
+      "allOf": [
+        {
+          "anyOf": [
+            { "required": ["cp"] },
+            { "required": ["mate"] }
+          ]
+        }
+      ]
+    }
+  }
+}

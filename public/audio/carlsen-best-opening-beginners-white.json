@@ -1,0 +1,4633 @@
+{
+  "detected_language": "en",
+  "segments": [
+    {
+      "end": 9.22,
+      "start": 0.817,
+      "text": " Magnus Carlsen calls this chess opening for white, moving the queen out all the way here on your second turn, the best chess opening for beginners.",
+      "words": [
+        {
+          "end": 1.197,
+          "score": 0.821,
+          "start": 0.817,
+          "word": "Magnus"
+        },
+        {
+          "end": 1.757,
+          "score": 0.849,
+          "start": 1.237,
+          "word": "Carlsen"
+        },
+        {
+          "end": 2.058,
+          "score": 0.751,
+          "start": 1.837,
+          "word": "calls"
+        },
+        {
+          "end": 2.418,
+          "score": 0.643,
+          "start": 2.078,
+          "word": "this"
+        },
+        {
+          "end": 2.838,
+          "score": 0.845,
+          "start": 2.658,
+          "word": "chess"
+        },
+        {
+          "end": 3.138,
+          "score": 0.969,
+          "start": 2.898,
+          "word": "opening"
+        },
+        {
+          "end": 3.258,
+          "score": 0.923,
+          "start": 3.158,
+          "word": "for"
+        },
+        {
+          "end": 3.578,
+          "score": 0.645,
+          "start": 3.298,
+          "word": "white,"
+        },
+        {
+          "end": 4.238,
+          "score": 0.791,
+          "start": 3.878,
+          "word": "moving"
+        },
+        {
+          "end": 4.358,
+          "score": 0.819,
+          "start": 4.278,
+          "word": "the"
+        },
+        {
+          "end": 4.839,
+          "score": 0.91,
+          "start": 4.518,
+          "word": "queen"
+        },
+        {
+          "end": 5.059,
+          "score": 0.989,
+          "start": 4.919,
+          "word": "out"
+        },
+        {
+          "end": 5.459,
+          "score": 0.825,
+          "start": 5.339,
+          "word": "all"
+        },
+        {
+          "end": 5.539,
+          "score": 0.92,
+          "start": 5.479,
+          "word": "the"
+        },
+        {
+          "end": 5.719,
+          "score": 0.716,
+          "start": 5.579,
+          "word": "way"
+        },
+        {
+          "end": 5.999,
+          "score": 0.72,
+          "start": 5.779,
+          "word": "here"
+        },
+        {
+          "end": 6.159,
+          "score": 0.751,
+          "start": 6.099,
+          "word": "on"
+        },
+        {
+          "end": 6.299,
+          "score": 0.868,
+          "start": 6.179,
+          "word": "your"
+        },
+        {
+          "end": 6.579,
+          "score": 0.853,
+          "start": 6.319,
+          "word": "second"
+        },
+        {
+          "end": 6.899,
+          "score": 0.934,
+          "start": 6.599,
+          "word": "turn,"
+        },
+        {
+          "end": 7.44,
+          "score": 0.882,
+          "start": 7.32,
+          "word": "the"
+        },
+        {
+          "end": 7.9,
+          "score": 0.906,
+          "start": 7.56,
+          "word": "best"
+        },
+        {
+          "end": 8.44,
+          "score": 0.866,
+          "start": 8.24,
+          "word": "chess"
+        },
+        {
+          "end": 8.74,
+          "score": 0.872,
+          "start": 8.5,
+          "word": "opening"
+        },
+        {
+          "end": 8.86,
+          "score": 0.845,
+          "start": 8.76,
+          "word": "for"
+        },
+        {
+          "end": 9.22,
+          "score": 0.896,
+          "start": 8.9,
+          "word": "beginners."
+        }
+      ]
+    },
+    {
+      "end": 14.842,
+      "start": 10.301,
+      "text": "Even though it violates an important piece of advice often given to beginners.",
+      "words": [
+        {
+          "end": 10.461,
+          "score": 0.77,
+          "start": 10.301,
+          "word": "Even"
+        },
+        {
+          "end": 10.641,
+          "score": 0.855,
+          "start": 10.481,
+          "word": "though"
+        },
+        {
+          "end": 10.721,
+          "score": 0.999,
+          "start": 10.681,
+          "word": "it"
+        },
+        {
+          "end": 11.241,
+          "score": 0.823,
+          "start": 10.761,
+          "word": "violates"
+        },
+        {
+          "end": 11.541,
+          "score": 0.784,
+          "start": 11.481,
+          "word": "an"
+        },
+        {
+          "end": 12.241,
+          "score": 0.93,
+          "start": 11.581,
+          "word": "important"
+        },
+        {
+          "end": 12.922,
+          "score": 0.702,
+          "start": 12.702,
+          "word": "piece"
+        },
+        {
+          "end": 12.982,
+          "score": 0.974,
+          "start": 12.942,
+          "word": "of"
+        },
+        {
+          "end": 13.382,
+          "score": 0.716,
+          "start": 13.002,
+          "word": "advice"
+        },
+        {
+          "end": 13.862,
+          "score": 0.864,
+          "start": 13.622,
+          "word": "often"
+        },
+        {
+          "end": 14.122,
+          "score": 0.929,
+          "start": 13.902,
+          "word": "given"
+        },
+        {
+          "end": 14.502,
+          "score": 0.752,
+          "start": 14.402,
+          "word": "to"
+        },
+        {
+          "end": 14.842,
+          "score": 0.87,
+          "start": 14.522,
+          "word": "beginners."
+        }
+      ]
+    },
+    {
+      "end": 15.803,
+      "start": 15.323,
+      "text": "Why is this?",
+      "words": [
+        {
+          "end": 15.463,
+          "score": 0.951,
+          "start": 15.323,
+          "word": "Why"
+        },
+        {
+          "end": 15.623,
+          "score": 0.676,
+          "start": 15.543,
+          "word": "is"
+        },
+        {
+          "end": 15.803,
+          "score": 0.997,
+          "start": 15.663,
+          "word": "this?"
+        }
+      ]
+    },
+    {
+      "end": 26.944,
+      "start": 16.997,
+      "text": " Well, the way the game started so far is it started with very common opening moves, king's pawn for white, push two spaces forward, and similar for black.",
+      "words": [
+        {
+          "end": 17.197,
+          "score": 0.764,
+          "start": 16.997,
+          "word": "Well,"
+        },
+        {
+          "end": 18.178,
+          "score": 0.923,
+          "start": 18.098,
+          "word": "the"
+        },
+        {
+          "end": 18.278,
+          "score": 0.866,
+          "start": 18.198,
+          "word": "way"
+        },
+        {
+          "end": 18.378,
+          "score": 0.99,
+          "start": 18.318,
+          "word": "the"
+        },
+        {
+          "end": 18.558,
+          "score": 0.643,
+          "start": 18.398,
+          "word": "game"
+        },
+        {
+          "end": 18.858,
+          "score": 0.782,
+          "start": 18.578,
+          "word": "started"
+        },
+        {
+          "end": 19.019,
+          "score": 0.93,
+          "start": 18.898,
+          "word": "so"
+        },
+        {
+          "end": 19.259,
+          "score": 0.847,
+          "start": 19.059,
+          "word": "far"
+        },
+        {
+          "end": 19.319,
+          "score": 0,
+          "start": 19.279,
+          "word": "is"
+        },
+        {
+          "end": 19.899,
+          "score": 0.614,
+          "start": 19.759,
+          "word": "it"
+        },
+        {
+          "end": 20.5,
+          "score": 0.877,
+          "start": 20.159,
+          "word": "started"
+        },
+        {
+          "end": 20.76,
+          "score": 0.897,
+          "start": 20.54,
+          "word": "with"
+        },
+        {
+          "end": 21.16,
+          "score": 0.907,
+          "start": 20.98,
+          "word": "very"
+        },
+        {
+          "end": 21.5,
+          "score": 0.823,
+          "start": 21.22,
+          "word": "common"
+        },
+        {
+          "end": 21.861,
+          "score": 0.886,
+          "start": 21.62,
+          "word": "opening"
+        },
+        {
+          "end": 22.221,
+          "score": 0.827,
+          "start": 21.901,
+          "word": "moves,"
+        },
+        {
+          "end": 23.102,
+          "score": 0.8,
+          "start": 22.801,
+          "word": "king's"
+        },
+        {
+          "end": 23.562,
+          "score": 0.752,
+          "start": 23.182,
+          "word": "pawn"
+        },
+        {
+          "end": 23.902,
+          "score": 0.815,
+          "start": 23.762,
+          "word": "for"
+        },
+        {
+          "end": 24.162,
+          "score": 0.72,
+          "start": 23.942,
+          "word": "white,"
+        },
+        {
+          "end": 24.422,
+          "score": 0.865,
+          "start": 24.202,
+          "word": "push"
+        },
+        {
+          "end": 24.643,
+          "score": 0.675,
+          "start": 24.463,
+          "word": "two"
+        },
+        {
+          "end": 24.883,
+          "score": 0.74,
+          "start": 24.663,
+          "word": "spaces"
+        },
+        {
+          "end": 25.263,
+          "score": 0.895,
+          "start": 24.923,
+          "word": "forward,"
+        },
+        {
+          "end": 26.164,
+          "score": 0.75,
+          "start": 25.984,
+          "word": "and"
+        },
+        {
+          "end": 26.584,
+          "score": 0.514,
+          "start": 26.384,
+          "word": "similar"
+        },
+        {
+          "end": 26.704,
+          "score": 0.822,
+          "start": 26.604,
+          "word": "for"
+        },
+        {
+          "end": 26.944,
+          "score": 0.91,
+          "start": 26.724,
+          "word": "black."
+        }
+      ]
+    },
+    {
+      "end": 30.747,
+      "start": 27.024,
+      "text": "This is the most common way to open a game of chess at the highest levels even as well.",
+      "words": [
+        {
+          "end": 27.144,
+          "score": 0.905,
+          "start": 27.024,
+          "word": "This"
+        },
+        {
+          "end": 27.265,
+          "score": 0.804,
+          "start": 27.184,
+          "word": "is"
+        },
+        {
+          "end": 27.345,
+          "score": 0.82,
+          "start": 27.285,
+          "word": "the"
+        },
+        {
+          "end": 27.625,
+          "score": 0.832,
+          "start": 27.425,
+          "word": "most"
+        },
+        {
+          "end": 27.925,
+          "score": 0.87,
+          "start": 27.705,
+          "word": "common"
+        },
+        {
+          "end": 28.085,
+          "score": 0.907,
+          "start": 27.965,
+          "word": "way"
+        },
+        {
+          "end": 28.165,
+          "score": 0.784,
+          "start": 28.105,
+          "word": "to"
+        },
+        {
+          "end": 28.405,
+          "score": 0.867,
+          "start": 28.245,
+          "word": "open"
+        },
+        {
+          "end": 28.445,
+          "score": 0.99,
+          "start": 28.425,
+          "word": "a"
+        },
+        {
+          "end": 28.606,
+          "score": 0.459,
+          "start": 28.465,
+          "word": "game"
+        },
+        {
+          "end": 28.666,
+          "score": 0.004,
+          "start": 28.626,
+          "word": "of"
+        },
+        {
+          "end": 28.946,
+          "score": 0.942,
+          "start": 28.706,
+          "word": "chess"
+        },
+        {
+          "end": 29.426,
+          "score": 0.958,
+          "start": 29.286,
+          "word": "at"
+        },
+        {
+          "end": 29.686,
+          "score": 0.905,
+          "start": 29.606,
+          "word": "the"
+        },
+        {
+          "end": 29.967,
+          "score": 0.812,
+          "start": 29.726,
+          "word": "highest"
+        },
+        {
+          "end": 30.247,
+          "score": 0.844,
+          "start": 30.007,
+          "word": "levels"
+        },
+        {
+          "end": 30.447,
+          "score": 0.963,
+          "start": 30.307,
+          "word": "even"
+        },
+        {
+          "end": 30.547,
+          "score": 0.782,
+          "start": 30.487,
+          "word": "as"
+        },
+        {
+          "end": 30.747,
+          "score": 0.886,
+          "start": 30.587,
+          "word": "well."
+        }
+      ]
+    },
+    {
+      "end": 36.792,
+      "start": 31.888,
+      "text": "And here, we then did something more unorthodox in moving our queen out.",
+      "words": [
+        {
+          "end": 32.208,
+          "score": 0.56,
+          "start": 31.888,
+          "word": "And"
+        },
+        {
+          "end": 33.049,
+          "score": 0.648,
+          "start": 32.749,
+          "word": "here,"
+        },
+        {
+          "end": 33.489,
+          "score": 0.797,
+          "start": 33.329,
+          "word": "we"
+        },
+        {
+          "end": 33.809,
+          "score": 0.534,
+          "start": 33.529,
+          "word": "then"
+        },
+        {
+          "end": 33.989,
+          "score": 0.431,
+          "start": 33.829,
+          "word": "did"
+        },
+        {
+          "end": 34.33,
+          "score": 0.891,
+          "start": 34.03,
+          "word": "something"
+        },
+        {
+          "end": 34.79,
+          "score": 0.913,
+          "start": 34.49,
+          "word": "more"
+        },
+        {
+          "end": 35.391,
+          "score": 0.82,
+          "start": 34.89,
+          "word": "unorthodox"
+        },
+        {
+          "end": 35.511,
+          "score": 0.948,
+          "start": 35.451,
+          "word": "in"
+        },
+        {
+          "end": 35.811,
+          "score": 0.815,
+          "start": 35.571,
+          "word": "moving"
+        },
+        {
+          "end": 36.111,
+          "score": 0.83,
+          "start": 35.991,
+          "word": "our"
+        },
+        {
+          "end": 36.531,
+          "score": 0.929,
+          "start": 36.251,
+          "word": "queen"
+        },
+        {
+          "end": 36.792,
+          "score": 0.998,
+          "start": 36.691,
+          "word": "out."
+        }
+      ]
+    },
+    {
+      "end": 48.078,
+      "start": 37.792,
+      "text": " And this violates the common opening principle for beginners, which is be careful about moving your queen out too early, because it can get attacked.",
+      "words": [
+        {
+          "end": 37.932,
+          "score": 0.773,
+          "start": 37.792,
+          "word": "And"
+        },
+        {
+          "end": 38.192,
+          "score": 0.911,
+          "start": 38.032,
+          "word": "this"
+        },
+        {
+          "end": 38.773,
+          "score": 0.84,
+          "start": 38.252,
+          "word": "violates"
+        },
+        {
+          "end": 39.413,
+          "score": 0.912,
+          "start": 39.073,
+          "word": "the"
+        },
+        {
+          "end": 40.113,
+          "score": 0.865,
+          "start": 39.873,
+          "word": "common"
+        },
+        {
+          "end": 40.394,
+          "score": 0.723,
+          "start": 40.174,
+          "word": "opening"
+        },
+        {
+          "end": 40.874,
+          "score": 0.826,
+          "start": 40.434,
+          "word": "principle"
+        },
+        {
+          "end": 41.654,
+          "score": 0.913,
+          "start": 40.894,
+          "word": "for"
+        },
+        {
+          "end": 41.995,
+          "score": 0.722,
+          "start": 41.674,
+          "word": "beginners,"
+        },
+        {
+          "end": 42.155,
+          "score": 0.905,
+          "start": 42.035,
+          "word": "which"
+        },
+        {
+          "end": 42.315,
+          "score": 0.722,
+          "start": 42.215,
+          "word": "is"
+        },
+        {
+          "end": 42.555,
+          "score": 0.995,
+          "start": 42.435,
+          "word": "be"
+        },
+        {
+          "end": 43.055,
+          "score": 0.839,
+          "start": 42.595,
+          "word": "careful"
+        },
+        {
+          "end": 43.756,
+          "score": 0.846,
+          "start": 43.435,
+          "word": "about"
+        },
+        {
+          "end": 44.136,
+          "score": 0.846,
+          "start": 43.856,
+          "word": "moving"
+        },
+        {
+          "end": 44.336,
+          "score": 0.891,
+          "start": 44.176,
+          "word": "your"
+        },
+        {
+          "end": 44.716,
+          "score": 0.932,
+          "start": 44.396,
+          "word": "queen"
+        },
+        {
+          "end": 45.256,
+          "score": 0.844,
+          "start": 45.096,
+          "word": "out"
+        },
+        {
+          "end": 45.617,
+          "score": 0.79,
+          "start": 45.356,
+          "word": "too"
+        },
+        {
+          "end": 46.037,
+          "score": 0.665,
+          "start": 45.777,
+          "word": "early,"
+        },
+        {
+          "end": 46.837,
+          "score": 0.829,
+          "start": 46.277,
+          "word": "because"
+        },
+        {
+          "end": 47.317,
+          "score": 0.821,
+          "start": 47.257,
+          "word": "it"
+        },
+        {
+          "end": 47.478,
+          "score": 0.833,
+          "start": 47.358,
+          "word": "can"
+        },
+        {
+          "end": 47.618,
+          "score": 0.747,
+          "start": 47.518,
+          "word": "get"
+        },
+        {
+          "end": 48.078,
+          "score": 0.943,
+          "start": 47.658,
+          "word": "attacked."
+        }
+      ]
+    },
+    {
+      "end": 52.12,
+      "start": 48.398,
+      "text": "You'll have to waste time moving it around, or you might lose it.",
+      "words": [
+        {
+          "end": 48.558,
+          "score": 0.966,
+          "start": 48.398,
+          "word": "You'll"
+        },
+        {
+          "end": 48.678,
+          "score": 0.983,
+          "start": 48.598,
+          "word": "have"
+        },
+        {
+          "end": 48.798,
+          "score": 0.615,
+          "start": 48.698,
+          "word": "to"
+        },
+        {
+          "end": 49.559,
+          "score": 0.86,
+          "start": 49.299,
+          "word": "waste"
+        },
+        {
+          "end": 49.999,
+          "score": 0.896,
+          "start": 49.619,
+          "word": "time"
+        },
+        {
+          "end": 50.639,
+          "score": 0.912,
+          "start": 50.399,
+          "word": "moving"
+        },
+        {
+          "end": 50.699,
+          "score": 0.074,
+          "start": 50.659,
+          "word": "it"
+        },
+        {
+          "end": 51.14,
+          "score": 0.784,
+          "start": 50.719,
+          "word": "around,"
+        },
+        {
+          "end": 51.2,
+          "score": 0,
+          "start": 51.16,
+          "word": "or"
+        },
+        {
+          "end": 51.5,
+          "score": 0.357,
+          "start": 51.4,
+          "word": "you"
+        },
+        {
+          "end": 51.7,
+          "score": 0.914,
+          "start": 51.54,
+          "word": "might"
+        },
+        {
+          "end": 52,
+          "score": 0.908,
+          "start": 51.76,
+          "word": "lose"
+        },
+        {
+          "end": 52.12,
+          "score": 0.74,
+          "start": 52.06,
+          "word": "it."
+        }
+      ]
+    },
+    {
+      "end": 53.281,
+      "start": 52.18,
+      "text": "And it's your most valuable piece.",
+      "words": [
+        {
+          "end": 52.24,
+          "score": 0.879,
+          "start": 52.18,
+          "word": "And"
+        },
+        {
+          "end": 52.36,
+          "score": 0.547,
+          "start": 52.28,
+          "word": "it's"
+        },
+        {
+          "end": 52.48,
+          "score": 0.733,
+          "start": 52.38,
+          "word": "your"
+        },
+        {
+          "end": 52.64,
+          "score": 0.753,
+          "start": 52.5,
+          "word": "most"
+        },
+        {
+          "end": 53.021,
+          "score": 0.916,
+          "start": 52.7,
+          "word": "valuable"
+        },
+        {
+          "end": 53.281,
+          "score": 0.898,
+          "start": 53.061,
+          "word": "piece."
+        }
+      ]
+    },
+    {
+      "end": 54.021,
+      "start": 53.321,
+      "text": "You don't want to lose it.",
+      "words": [
+        {
+          "end": 53.381,
+          "score": 0.713,
+          "start": 53.321,
+          "word": "You"
+        },
+        {
+          "end": 53.561,
+          "score": 0.425,
+          "start": 53.421,
+          "word": "don't"
+        },
+        {
+          "end": 53.661,
+          "score": 0.242,
+          "start": 53.581,
+          "word": "want"
+        },
+        {
+          "end": 53.721,
+          "score": 0.136,
+          "start": 53.681,
+          "word": "to"
+        },
+        {
+          "end": 53.921,
+          "score": 0.905,
+          "start": 53.741,
+          "word": "lose"
+        },
+        {
+          "end": 54.021,
+          "score": 0.853,
+          "start": 53.961,
+          "word": "it."
+        }
+      ]
+    },
+    {
+      "end": 57.503,
+      "start": 55.302,
+      "text": "But we've done it anyway for the sake of this opening.",
+      "words": [
+        {
+          "end": 55.382,
+          "score": 0.998,
+          "start": 55.302,
+          "word": "But"
+        },
+        {
+          "end": 55.542,
+          "score": 0.844,
+          "start": 55.402,
+          "word": "we've"
+        },
+        {
+          "end": 55.662,
+          "score": 0.876,
+          "start": 55.562,
+          "word": "done"
+        },
+        {
+          "end": 55.742,
+          "score": 0.746,
+          "start": 55.682,
+          "word": "it"
+        },
+        {
+          "end": 56.062,
+          "score": 0.842,
+          "start": 55.802,
+          "word": "anyway"
+        },
+        {
+          "end": 56.343,
+          "score": 0.848,
+          "start": 56.262,
+          "word": "for"
+        },
+        {
+          "end": 56.423,
+          "score": 0.932,
+          "start": 56.363,
+          "word": "the"
+        },
+        {
+          "end": 56.663,
+          "score": 0.908,
+          "start": 56.463,
+          "word": "sake"
+        },
+        {
+          "end": 57.003,
+          "score": 0.974,
+          "start": 56.943,
+          "word": "of"
+        },
+        {
+          "end": 57.163,
+          "score": 0.84,
+          "start": 57.023,
+          "word": "this"
+        },
+        {
+          "end": 57.503,
+          "score": 0.791,
+          "start": 57.243,
+          "word": "opening."
+        }
+      ]
+    },
+    {
+      "end": 59.664,
+      "start": 59.164,
+      "text": "Why is that?",
+      "words": [
+        {
+          "end": 59.344,
+          "score": 0.951,
+          "start": 59.164,
+          "word": "Why"
+        },
+        {
+          "end": 59.464,
+          "score": 0.685,
+          "start": 59.384,
+          "word": "is"
+        },
+        {
+          "end": 59.664,
+          "score": 0.866,
+          "start": 59.504,
+          "word": "that?"
+        }
+      ]
+    },
+    {
+      "end": 69.263,
+      "start": 61.3,
+      "text": " It's an opening where you can get some very quick, cheap victories if you're playing against other chess beginners.",
+      "words": [
+        {
+          "end": 61.44,
+          "score": 0.871,
+          "start": 61.3,
+          "word": "It's"
+        },
+        {
+          "end": 61.84,
+          "score": 0.996,
+          "start": 61.8,
+          "word": "an"
+        },
+        {
+          "end": 62.18,
+          "score": 0.806,
+          "start": 61.9,
+          "word": "opening"
+        },
+        {
+          "end": 62.52,
+          "score": 0.62,
+          "start": 62.24,
+          "word": "where"
+        },
+        {
+          "end": 62.76,
+          "score": 0.909,
+          "start": 62.64,
+          "word": "you"
+        },
+        {
+          "end": 63.041,
+          "score": 0.844,
+          "start": 62.8,
+          "word": "can"
+        },
+        {
+          "end": 63.221,
+          "score": 0.864,
+          "start": 63.101,
+          "word": "get"
+        },
+        {
+          "end": 63.401,
+          "score": 0.786,
+          "start": 63.261,
+          "word": "some"
+        },
+        {
+          "end": 63.841,
+          "score": 0.864,
+          "start": 63.521,
+          "word": "very"
+        },
+        {
+          "end": 64.621,
+          "score": 0.891,
+          "start": 64.381,
+          "word": "quick,"
+        },
+        {
+          "end": 65.121,
+          "score": 0.862,
+          "start": 64.861,
+          "word": "cheap"
+        },
+        {
+          "end": 65.761,
+          "score": 0.841,
+          "start": 65.321,
+          "word": "victories"
+        },
+        {
+          "end": 66.582,
+          "score": 0.994,
+          "start": 66.542,
+          "word": "if"
+        },
+        {
+          "end": 66.722,
+          "score": 0.873,
+          "start": 66.602,
+          "word": "you're"
+        },
+        {
+          "end": 67.022,
+          "score": 0.78,
+          "start": 66.742,
+          "word": "playing"
+        },
+        {
+          "end": 67.422,
+          "score": 0.872,
+          "start": 67.162,
+          "word": "against"
+        },
+        {
+          "end": 67.722,
+          "score": 0.986,
+          "start": 67.542,
+          "word": "other"
+        },
+        {
+          "end": 68.022,
+          "score": 0.843,
+          "start": 67.802,
+          "word": "chess"
+        },
+        {
+          "end": 69.263,
+          "score": 0.84,
+          "start": 68.042,
+          "word": "beginners."
+        }
+      ]
+    },
+    {
+      "end": 72.464,
+      "start": 69.543,
+      "text": "So for example, here we are attacking this pawn.",
+      "words": [
+        {
+          "end": 69.823,
+          "score": 0.844,
+          "start": 69.543,
+          "word": "So"
+        },
+        {
+          "end": 70.063,
+          "score": 0.948,
+          "start": 69.983,
+          "word": "for"
+        },
+        {
+          "end": 70.423,
+          "score": 0.861,
+          "start": 70.083,
+          "word": "example,"
+        },
+        {
+          "end": 70.763,
+          "score": 0.702,
+          "start": 70.483,
+          "word": "here"
+        },
+        {
+          "end": 71.003,
+          "score": 0.877,
+          "start": 70.863,
+          "word": "we"
+        },
+        {
+          "end": 71.323,
+          "score": 0.802,
+          "start": 71.203,
+          "word": "are"
+        },
+        {
+          "end": 71.763,
+          "score": 0.876,
+          "start": 71.343,
+          "word": "attacking"
+        },
+        {
+          "end": 71.943,
+          "score": 0.692,
+          "start": 71.783,
+          "word": "this"
+        },
+        {
+          "end": 72.464,
+          "score": 0.741,
+          "start": 72.023,
+          "word": "pawn."
+        }
+      ]
+    },
+    {
+      "end": 76.645,
+      "start": 72.524,
+      "text": "And so something that black might do is it might move this pawn here, which both",
+      "words": [
+        {
+          "end": 72.604,
+          "score": 0.972,
+          "start": 72.524,
+          "word": "And"
+        },
+        {
+          "end": 72.864,
+          "score": 0.75,
+          "start": 72.644,
+          "word": "so"
+        },
+        {
+          "end": 73.844,
+          "score": 0.914,
+          "start": 73.644,
+          "word": "something"
+        },
+        {
+          "end": 73.944,
+          "score": 0.973,
+          "start": 73.864,
+          "word": "that"
+        },
+        {
+          "end": 74.144,
+          "score": 0.89,
+          "start": 73.984,
+          "word": "black"
+        },
+        {
+          "end": 74.304,
+          "score": 0.889,
+          "start": 74.164,
+          "word": "might"
+        },
+        {
+          "end": 74.444,
+          "score": 0.993,
+          "start": 74.344,
+          "word": "do"
+        },
+        {
+          "end": 74.524,
+          "score": 0.498,
+          "start": 74.484,
+          "word": "is"
+        },
+        {
+          "end": 74.644,
+          "score": 0.386,
+          "start": 74.584,
+          "word": "it"
+        },
+        {
+          "end": 74.804,
+          "score": 0.938,
+          "start": 74.664,
+          "word": "might"
+        },
+        {
+          "end": 75.064,
+          "score": 0.82,
+          "start": 74.844,
+          "word": "move"
+        },
+        {
+          "end": 75.164,
+          "score": 0,
+          "start": 75.084,
+          "word": "this"
+        },
+        {
+          "end": 75.404,
+          "score": 0.61,
+          "start": 75.184,
+          "word": "pawn"
+        },
+        {
+          "end": 75.805,
+          "score": 0.797,
+          "start": 75.484,
+          "word": "here,"
+        },
+        {
+          "end": 76.385,
+          "score": 0.744,
+          "start": 76.245,
+          "word": "which"
+        },
+        {
+          "end": 76.645,
+          "score": 0.946,
+          "start": 76.445,
+          "word": "both"
+        }
+      ]
+    },
+    {
+      "end": 79.786,
+      "start": 77.585,
+      "text": " gets in the way of our attack and also attacks our queen.",
+      "words": [
+        {
+          "end": 77.765,
+          "score": 0.862,
+          "start": 77.585,
+          "word": "gets"
+        },
+        {
+          "end": 77.845,
+          "score": 0.992,
+          "start": 77.805,
+          "word": "in"
+        },
+        {
+          "end": 77.925,
+          "score": 0.41,
+          "start": 77.865,
+          "word": "the"
+        },
+        {
+          "end": 78.065,
+          "score": 0.323,
+          "start": 77.945,
+          "word": "way"
+        },
+        {
+          "end": 78.125,
+          "score": 0.911,
+          "start": 78.085,
+          "word": "of"
+        },
+        {
+          "end": 78.245,
+          "score": 0.827,
+          "start": 78.165,
+          "word": "our"
+        },
+        {
+          "end": 78.646,
+          "score": 0.966,
+          "start": 78.265,
+          "word": "attack"
+        },
+        {
+          "end": 78.786,
+          "score": 0.674,
+          "start": 78.686,
+          "word": "and"
+        },
+        {
+          "end": 79.006,
+          "score": 0.893,
+          "start": 78.826,
+          "word": "also"
+        },
+        {
+          "end": 79.286,
+          "score": 0.764,
+          "start": 79.026,
+          "word": "attacks"
+        },
+        {
+          "end": 79.426,
+          "score": 0.9,
+          "start": 79.326,
+          "word": "our"
+        },
+        {
+          "end": 79.786,
+          "score": 0.973,
+          "start": 79.506,
+          "word": "queen."
+        }
+      ]
+    },
+    {
+      "end": 84.127,
+      "start": 80.066,
+      "text": "But this is a really bad move for black because it leaves this pawn here undefended.",
+      "words": [
+        {
+          "end": 80.146,
+          "score": 0.996,
+          "start": 80.066,
+          "word": "But"
+        },
+        {
+          "end": 80.286,
+          "score": 0.824,
+          "start": 80.166,
+          "word": "this"
+        },
+        {
+          "end": 80.406,
+          "score": 0.603,
+          "start": 80.306,
+          "word": "is"
+        },
+        {
+          "end": 80.466,
+          "score": 0.386,
+          "start": 80.426,
+          "word": "a"
+        },
+        {
+          "end": 80.706,
+          "score": 0.796,
+          "start": 80.506,
+          "word": "really"
+        },
+        {
+          "end": 80.906,
+          "score": 0.992,
+          "start": 80.746,
+          "word": "bad"
+        },
+        {
+          "end": 81.086,
+          "score": 0.822,
+          "start": 80.966,
+          "word": "move"
+        },
+        {
+          "end": 81.186,
+          "score": 0.464,
+          "start": 81.106,
+          "word": "for"
+        },
+        {
+          "end": 81.386,
+          "score": 0.924,
+          "start": 81.206,
+          "word": "black"
+        },
+        {
+          "end": 81.707,
+          "score": 0.772,
+          "start": 81.426,
+          "word": "because"
+        },
+        {
+          "end": 81.787,
+          "score": 0.986,
+          "start": 81.747,
+          "word": "it"
+        },
+        {
+          "end": 82.047,
+          "score": 0.818,
+          "start": 81.827,
+          "word": "leaves"
+        },
+        {
+          "end": 82.267,
+          "score": 0.776,
+          "start": 82.107,
+          "word": "this"
+        },
+        {
+          "end": 82.607,
+          "score": 0.818,
+          "start": 82.327,
+          "word": "pawn"
+        },
+        {
+          "end": 82.987,
+          "score": 0.833,
+          "start": 82.667,
+          "word": "here"
+        },
+        {
+          "end": 84.127,
+          "score": 0.912,
+          "start": 83.527,
+          "word": "undefended."
+        }
+      ]
+    },
+    {
+      "end": 90.97,
+      "start": 84.207,
+      "text": "So we're just going to swoop in, take that, it's check because we're attacking the king, but also at the same time we're attacking this rook that is now open.",
+      "words": [
+        {
+          "end": 84.287,
+          "score": 0.993,
+          "start": 84.207,
+          "word": "So"
+        },
+        {
+          "end": 84.408,
+          "score": 0.002,
+          "start": 84.307,
+          "word": "we're"
+        },
+        {
+          "end": 84.508,
+          "score": 0.248,
+          "start": 84.428,
+          "word": "just"
+        },
+        {
+          "end": 84.628,
+          "score": 0.206,
+          "start": 84.528,
+          "word": "going"
+        },
+        {
+          "end": 84.688,
+          "score": 0.002,
+          "start": 84.648,
+          "word": "to"
+        },
+        {
+          "end": 84.968,
+          "score": 0.925,
+          "start": 84.728,
+          "word": "swoop"
+        },
+        {
+          "end": 85.168,
+          "score": 0.71,
+          "start": 85.048,
+          "word": "in,"
+        },
+        {
+          "end": 85.648,
+          "score": 0.883,
+          "start": 85.448,
+          "word": "take"
+        },
+        {
+          "end": 85.868,
+          "score": 0.91,
+          "start": 85.688,
+          "word": "that,"
+        },
+        {
+          "end": 86.368,
+          "score": 0.526,
+          "start": 86.248,
+          "word": "it's"
+        },
+        {
+          "end": 86.728,
+          "score": 0.931,
+          "start": 86.488,
+          "word": "check"
+        },
+        {
+          "end": 86.888,
+          "score": 0.122,
+          "start": 86.748,
+          "word": "because"
+        },
+        {
+          "end": 87.008,
+          "score": 0.201,
+          "start": 86.908,
+          "word": "we're"
+        },
+        {
+          "end": 87.349,
+          "score": 0.871,
+          "start": 87.028,
+          "word": "attacking"
+        },
+        {
+          "end": 87.449,
+          "score": 0.414,
+          "start": 87.369,
+          "word": "the"
+        },
+        {
+          "end": 87.689,
+          "score": 0.941,
+          "start": 87.469,
+          "word": "king,"
+        },
+        {
+          "end": 87.829,
+          "score": 0.605,
+          "start": 87.729,
+          "word": "but"
+        },
+        {
+          "end": 88.249,
+          "score": 0.883,
+          "start": 87.969,
+          "word": "also"
+        },
+        {
+          "end": 88.329,
+          "score": 0.971,
+          "start": 88.289,
+          "word": "at"
+        },
+        {
+          "end": 88.409,
+          "score": 0.996,
+          "start": 88.349,
+          "word": "the"
+        },
+        {
+          "end": 88.589,
+          "score": 0.711,
+          "start": 88.449,
+          "word": "same"
+        },
+        {
+          "end": 88.729,
+          "score": 0.996,
+          "start": 88.629,
+          "word": "time"
+        },
+        {
+          "end": 88.849,
+          "score": 0.042,
+          "start": 88.749,
+          "word": "we're"
+        },
+        {
+          "end": 89.209,
+          "score": 0.697,
+          "start": 88.869,
+          "word": "attacking"
+        },
+        {
+          "end": 89.649,
+          "score": 0.853,
+          "start": 89.489,
+          "word": "this"
+        },
+        {
+          "end": 89.929,
+          "score": 0.864,
+          "start": 89.729,
+          "word": "rook"
+        },
+        {
+          "end": 90.29,
+          "score": 0.992,
+          "start": 90.19,
+          "word": "that"
+        },
+        {
+          "end": 90.41,
+          "score": 0.66,
+          "start": 90.33,
+          "word": "is"
+        },
+        {
+          "end": 90.63,
+          "score": 0.809,
+          "start": 90.45,
+          "word": "now"
+        },
+        {
+          "end": 90.97,
+          "score": 0.837,
+          "start": 90.71,
+          "word": "open."
+        }
+      ]
+    },
+    {
+      "end": 95.491,
+      "start": 91.33,
+      "text": "And so black must block and we just win the rook.",
+      "words": [
+        {
+          "end": 91.43,
+          "score": 0.827,
+          "start": 91.33,
+          "word": "And"
+        },
+        {
+          "end": 91.77,
+          "score": 0.786,
+          "start": 91.49,
+          "word": "so"
+        },
+        {
+          "end": 92.35,
+          "score": 0.734,
+          "start": 92.07,
+          "word": "black"
+        },
+        {
+          "end": 93.111,
+          "score": 0.796,
+          "start": 92.81,
+          "word": "must"
+        },
+        {
+          "end": 93.511,
+          "score": 0.84,
+          "start": 93.151,
+          "word": "block"
+        },
+        {
+          "end": 94.131,
+          "score": 0.785,
+          "start": 93.991,
+          "word": "and"
+        },
+        {
+          "end": 94.471,
+          "score": 0.92,
+          "start": 94.191,
+          "word": "we"
+        },
+        {
+          "end": 94.931,
+          "score": 0.852,
+          "start": 94.771,
+          "word": "just"
+        },
+        {
+          "end": 95.151,
+          "score": 0.747,
+          "start": 94.991,
+          "word": "win"
+        },
+        {
+          "end": 95.251,
+          "score": 0.385,
+          "start": 95.171,
+          "word": "the"
+        },
+        {
+          "end": 95.491,
+          "score": 0.863,
+          "start": 95.291,
+          "word": "rook."
+        }
+      ]
+    },
+    {
+      "end": 100.913,
+      "start": 96.632,
+      "text": "And this happens regardless of whether black might also try to block with bishop or block with knight.",
+      "words": [
+        {
+          "end": 96.712,
+          "score": 0.558,
+          "start": 96.632,
+          "word": "And"
+        },
+        {
+          "end": 96.872,
+          "score": 0.592,
+          "start": 96.732,
+          "word": "this"
+        },
+        {
+          "end": 97.292,
+          "score": 0.868,
+          "start": 96.912,
+          "word": "happens"
+        },
+        {
+          "end": 98.052,
+          "score": 0.912,
+          "start": 97.572,
+          "word": "regardless"
+        },
+        {
+          "end": 98.132,
+          "score": 0.981,
+          "start": 98.092,
+          "word": "of"
+        },
+        {
+          "end": 98.392,
+          "score": 0.661,
+          "start": 98.172,
+          "word": "whether"
+        },
+        {
+          "end": 98.572,
+          "score": 0.958,
+          "start": 98.412,
+          "word": "black"
+        },
+        {
+          "end": 98.732,
+          "score": 0.888,
+          "start": 98.592,
+          "word": "might"
+        },
+        {
+          "end": 98.953,
+          "score": 0.722,
+          "start": 98.752,
+          "word": "also"
+        },
+        {
+          "end": 99.113,
+          "score": 0.914,
+          "start": 98.993,
+          "word": "try"
+        },
+        {
+          "end": 99.193,
+          "score": 0.761,
+          "start": 99.133,
+          "word": "to"
+        },
+        {
+          "end": 99.453,
+          "score": 0.886,
+          "start": 99.233,
+          "word": "block"
+        },
+        {
+          "end": 99.693,
+          "score": 0.482,
+          "start": 99.513,
+          "word": "with"
+        },
+        {
+          "end": 100.033,
+          "score": 0.919,
+          "start": 99.733,
+          "word": "bishop"
+        },
+        {
+          "end": 100.193,
+          "score": 0.84,
+          "start": 100.113,
+          "word": "or"
+        },
+        {
+          "end": 100.413,
+          "score": 0.988,
+          "start": 100.233,
+          "word": "block"
+        },
+        {
+          "end": 100.593,
+          "score": 0.398,
+          "start": 100.433,
+          "word": "with"
+        },
+        {
+          "end": 100.913,
+          "score": 0.728,
+          "start": 100.613,
+          "word": "knight."
+        }
+      ]
+    },
+    {
+      "end": 103.374,
+      "start": 101.293,
+      "text": "Both of those mean we can still capture that rook.",
+      "words": [
+        {
+          "end": 101.473,
+          "score": 0.943,
+          "start": 101.293,
+          "word": "Both"
+        },
+        {
+          "end": 101.553,
+          "score": 0.927,
+          "start": 101.513,
+          "word": "of"
+        },
+        {
+          "end": 101.854,
+          "score": 0.87,
+          "start": 101.593,
+          "word": "those"
+        },
+        {
+          "end": 102.094,
+          "score": 0.736,
+          "start": 101.934,
+          "word": "mean"
+        },
+        {
+          "end": 102.194,
+          "score": 0.558,
+          "start": 102.114,
+          "word": "we"
+        },
+        {
+          "end": 102.314,
+          "score": 0.995,
+          "start": 102.214,
+          "word": "can"
+        },
+        {
+          "end": 102.554,
+          "score": 0.911,
+          "start": 102.354,
+          "word": "still"
+        },
+        {
+          "end": 102.954,
+          "score": 0.87,
+          "start": 102.594,
+          "word": "capture"
+        },
+        {
+          "end": 103.134,
+          "score": 0.808,
+          "start": 102.974,
+          "word": "that"
+        },
+        {
+          "end": 103.374,
+          "score": 0.854,
+          "start": 103.194,
+          "word": "rook."
+        }
+      ]
+    },
+    {
+      "end": 105.375,
+      "start": 104.795,
+      "text": "So basically...",
+      "words": [
+        {
+          "end": 104.915,
+          "score": 0.872,
+          "start": 104.795,
+          "word": "So"
+        },
+        {
+          "end": 105.375,
+          "score": 0.973,
+          "start": 104.935,
+          "word": "basically..."
+        }
+      ]
+    },
+    {
+      "end": 110.01,
+      "start": 106.448,
+      "text": " Pushing this pawn here, big mistake for black because of this pawn that's unguarded.",
+      "words": [
+        {
+          "end": 106.628,
+          "score": 0.966,
+          "start": 106.448,
+          "word": "Pushing"
+        },
+        {
+          "end": 106.748,
+          "score": 0.759,
+          "start": 106.648,
+          "word": "this"
+        },
+        {
+          "end": 106.968,
+          "score": 0.606,
+          "start": 106.768,
+          "word": "pawn"
+        },
+        {
+          "end": 107.169,
+          "score": 0.548,
+          "start": 106.988,
+          "word": "here,"
+        },
+        {
+          "end": 107.649,
+          "score": 0.925,
+          "start": 107.509,
+          "word": "big"
+        },
+        {
+          "end": 107.869,
+          "score": 0.536,
+          "start": 107.669,
+          "word": "mistake"
+        },
+        {
+          "end": 107.969,
+          "score": 0.969,
+          "start": 107.889,
+          "word": "for"
+        },
+        {
+          "end": 108.209,
+          "score": 0.908,
+          "start": 107.989,
+          "word": "black"
+        },
+        {
+          "end": 108.97,
+          "score": 0.809,
+          "start": 108.69,
+          "word": "because"
+        },
+        {
+          "end": 109.05,
+          "score": 0.974,
+          "start": 109.01,
+          "word": "of"
+        },
+        {
+          "end": 109.15,
+          "score": 0.749,
+          "start": 109.07,
+          "word": "this"
+        },
+        {
+          "end": 109.37,
+          "score": 0.487,
+          "start": 109.19,
+          "word": "pawn"
+        },
+        {
+          "end": 109.55,
+          "score": 0.268,
+          "start": 109.39,
+          "word": "that's"
+        },
+        {
+          "end": 110.01,
+          "score": 0.86,
+          "start": 109.59,
+          "word": "unguarded."
+        }
+      ]
+    },
+    {
+      "end": 112.392,
+      "start": 111.171,
+      "text": "Check, and then a threat to the rook.",
+      "words": [
+        {
+          "end": 111.471,
+          "score": 0.9,
+          "start": 111.171,
+          "word": "Check,"
+        },
+        {
+          "end": 111.611,
+          "score": 0.603,
+          "start": 111.551,
+          "word": "and"
+        },
+        {
+          "end": 111.711,
+          "score": 0.117,
+          "start": 111.631,
+          "word": "then"
+        },
+        {
+          "end": 111.792,
+          "score": 0.503,
+          "start": 111.752,
+          "word": "a"
+        },
+        {
+          "end": 112.032,
+          "score": 0.778,
+          "start": 111.812,
+          "word": "threat"
+        },
+        {
+          "end": 112.112,
+          "score": 0.516,
+          "start": 112.052,
+          "word": "to"
+        },
+        {
+          "end": 112.192,
+          "score": 0.033,
+          "start": 112.132,
+          "word": "the"
+        },
+        {
+          "end": 112.392,
+          "score": 0.749,
+          "start": 112.212,
+          "word": "rook."
+        }
+      ]
+    },
+    {
+      "end": 115.974,
+      "start": 112.972,
+      "text": "So instead, a better move for black might be developing a knight.",
+      "words": [
+        {
+          "end": 113.152,
+          "score": 0.836,
+          "start": 112.972,
+          "word": "So"
+        },
+        {
+          "end": 113.733,
+          "score": 0.883,
+          "start": 113.212,
+          "word": "instead,"
+        },
+        {
+          "end": 113.773,
+          "score": 0,
+          "start": 113.753,
+          "word": "a"
+        },
+        {
+          "end": 114.193,
+          "score": 0.695,
+          "start": 113.973,
+          "word": "better"
+        },
+        {
+          "end": 114.313,
+          "score": 0.452,
+          "start": 114.213,
+          "word": "move"
+        },
+        {
+          "end": 114.433,
+          "score": 0.445,
+          "start": 114.333,
+          "word": "for"
+        },
+        {
+          "end": 114.633,
+          "score": 0.783,
+          "start": 114.453,
+          "word": "black"
+        },
+        {
+          "end": 114.814,
+          "score": 0.916,
+          "start": 114.673,
+          "word": "might"
+        },
+        {
+          "end": 115.014,
+          "score": 0.708,
+          "start": 114.854,
+          "word": "be"
+        },
+        {
+          "end": 115.594,
+          "score": 0.784,
+          "start": 115.254,
+          "word": "developing"
+        },
+        {
+          "end": 115.674,
+          "score": 0.478,
+          "start": 115.634,
+          "word": "a"
+        },
+        {
+          "end": 115.974,
+          "score": 0.768,
+          "start": 115.714,
+          "word": "knight."
+        }
+      ]
+    },
+    {
+      "end": 119.557,
+      "start": 115.994,
+      "text": "It's now protecting that pawn, so we can't capture it because otherwise the knight will recapture us.",
+      "words": [
+        {
+          "end": 116.174,
+          "score": 0.294,
+          "start": 115.994,
+          "word": "It's"
+        },
+        {
+          "end": 116.335,
+          "score": 0.838,
+          "start": 116.214,
+          "word": "now"
+        },
+        {
+          "end": 116.615,
+          "score": 0.492,
+          "start": 116.375,
+          "word": "protecting"
+        },
+        {
+          "end": 116.815,
+          "score": 0.302,
+          "start": 116.635,
+          "word": "that"
+        },
+        {
+          "end": 117.095,
+          "score": 0.647,
+          "start": 116.835,
+          "word": "pawn,"
+        },
+        {
+          "end": 117.215,
+          "score": 0.968,
+          "start": 117.115,
+          "word": "so"
+        },
+        {
+          "end": 117.335,
+          "score": 0.832,
+          "start": 117.255,
+          "word": "we"
+        },
+        {
+          "end": 117.575,
+          "score": 0.816,
+          "start": 117.375,
+          "word": "can't"
+        },
+        {
+          "end": 117.956,
+          "score": 0.919,
+          "start": 117.635,
+          "word": "capture"
+        },
+        {
+          "end": 118.056,
+          "score": 0.752,
+          "start": 117.996,
+          "word": "it"
+        },
+        {
+          "end": 118.296,
+          "score": 0.832,
+          "start": 118.096,
+          "word": "because"
+        },
+        {
+          "end": 118.636,
+          "score": 0.425,
+          "start": 118.316,
+          "word": "otherwise"
+        },
+        {
+          "end": 118.736,
+          "score": 0.165,
+          "start": 118.656,
+          "word": "the"
+        },
+        {
+          "end": 118.896,
+          "score": 0.762,
+          "start": 118.756,
+          "word": "knight"
+        },
+        {
+          "end": 119.036,
+          "score": 0.498,
+          "start": 118.916,
+          "word": "will"
+        },
+        {
+          "end": 119.457,
+          "score": 0.9,
+          "start": 119.076,
+          "word": "recapture"
+        },
+        {
+          "end": 119.557,
+          "score": 0.978,
+          "start": 119.497,
+          "word": "us."
+        }
+      ]
+    },
+    {
+      "end": 121.762,
+      "start": 120.961,
+      "text": " So what should we do now?",
+      "words": [
+        {
+          "end": 121.082,
+          "score": 0.996,
+          "start": 120.961,
+          "word": "So"
+        },
+        {
+          "end": 121.202,
+          "score": 0.98,
+          "start": 121.122,
+          "word": "what"
+        },
+        {
+          "end": 121.342,
+          "score": 0.006,
+          "start": 121.222,
+          "word": "should"
+        },
+        {
+          "end": 121.402,
+          "score": 0,
+          "start": 121.362,
+          "word": "we"
+        },
+        {
+          "end": 121.542,
+          "score": 0.872,
+          "start": 121.422,
+          "word": "do"
+        },
+        {
+          "end": 121.762,
+          "score": 0.874,
+          "start": 121.582,
+          "word": "now?"
+        }
+      ]
+    },
+    {
+      "end": 123.844,
+      "start": 122.022,
+      "text": "This is actually our main plan anyway.",
+      "words": [
+        {
+          "end": 122.142,
+          "score": 0.913,
+          "start": 122.022,
+          "word": "This"
+        },
+        {
+          "end": 122.262,
+          "score": 0.719,
+          "start": 122.182,
+          "word": "is"
+        },
+        {
+          "end": 122.503,
+          "score": 0.955,
+          "start": 122.302,
+          "word": "actually"
+        },
+        {
+          "end": 122.663,
+          "score": 0.982,
+          "start": 122.563,
+          "word": "our"
+        },
+        {
+          "end": 122.983,
+          "score": 0.828,
+          "start": 122.723,
+          "word": "main"
+        },
+        {
+          "end": 123.303,
+          "score": 0.82,
+          "start": 123.023,
+          "word": "plan"
+        },
+        {
+          "end": 123.844,
+          "score": 0.855,
+          "start": 123.483,
+          "word": "anyway."
+        }
+      ]
+    },
+    {
+      "end": 125.485,
+      "start": 123.964,
+      "text": "It's moving this bishop out here.",
+      "words": [
+        {
+          "end": 124.084,
+          "score": 0.696,
+          "start": 123.964,
+          "word": "It's"
+        },
+        {
+          "end": 124.404,
+          "score": 0.792,
+          "start": 124.144,
+          "word": "moving"
+        },
+        {
+          "end": 124.564,
+          "score": 0.814,
+          "start": 124.424,
+          "word": "this"
+        },
+        {
+          "end": 124.844,
+          "score": 0.975,
+          "start": 124.624,
+          "word": "bishop"
+        },
+        {
+          "end": 125.085,
+          "score": 0.939,
+          "start": 124.944,
+          "word": "out"
+        },
+        {
+          "end": 125.485,
+          "score": 0.798,
+          "start": 125.225,
+          "word": "here."
+        }
+      ]
+    },
+    {
+      "end": 127.807,
+      "start": 126.586,
+      "text": "Why is this our main plan?",
+      "words": [
+        {
+          "end": 126.746,
+          "score": 0.981,
+          "start": 126.586,
+          "word": "Why"
+        },
+        {
+          "end": 126.826,
+          "score": 0.248,
+          "start": 126.766,
+          "word": "is"
+        },
+        {
+          "end": 126.946,
+          "score": 0.126,
+          "start": 126.846,
+          "word": "this"
+        },
+        {
+          "end": 127.106,
+          "score": 0.961,
+          "start": 127.006,
+          "word": "our"
+        },
+        {
+          "end": 127.346,
+          "score": 0.946,
+          "start": 127.146,
+          "word": "main"
+        },
+        {
+          "end": 127.807,
+          "score": 0.847,
+          "start": 127.406,
+          "word": "plan?"
+        }
+      ]
+    },
+    {
+      "end": 135.713,
+      "start": 127.887,
+      "text": "Well, it's because for a move like this here, blacks may be trying to attack our queen by developing their second knight.",
+      "words": [
+        {
+          "end": 128.147,
+          "score": 0.876,
+          "start": 127.887,
+          "word": "Well,"
+        },
+        {
+          "end": 128.247,
+          "score": 0.015,
+          "start": 128.167,
+          "word": "it's"
+        },
+        {
+          "end": 128.908,
+          "score": 0.862,
+          "start": 128.307,
+          "word": "because"
+        },
+        {
+          "end": 129.188,
+          "score": 0.885,
+          "start": 129.028,
+          "word": "for"
+        },
+        {
+          "end": 129.248,
+          "score": 0.48,
+          "start": 129.208,
+          "word": "a"
+        },
+        {
+          "end": 129.628,
+          "score": 0.951,
+          "start": 129.328,
+          "word": "move"
+        },
+        {
+          "end": 129.848,
+          "score": 0.934,
+          "start": 129.688,
+          "word": "like"
+        },
+        {
+          "end": 130.108,
+          "score": 0.835,
+          "start": 129.908,
+          "word": "this"
+        },
+        {
+          "end": 130.669,
+          "score": 0.657,
+          "start": 130.309,
+          "word": "here,"
+        },
+        {
+          "end": 131.75,
+          "score": 0.844,
+          "start": 131.469,
+          "word": "blacks"
+        },
+        {
+          "end": 131.89,
+          "score": 0.893,
+          "start": 131.77,
+          "word": "may"
+        },
+        {
+          "end": 131.97,
+          "score": 0.884,
+          "start": 131.91,
+          "word": "be"
+        },
+        {
+          "end": 132.15,
+          "score": 0.854,
+          "start": 131.99,
+          "word": "trying"
+        },
+        {
+          "end": 132.21,
+          "score": 0.99,
+          "start": 132.17,
+          "word": "to"
+        },
+        {
+          "end": 132.73,
+          "score": 0.614,
+          "start": 132.23,
+          "word": "attack"
+        },
+        {
+          "end": 133.591,
+          "score": 0.781,
+          "start": 133.471,
+          "word": "our"
+        },
+        {
+          "end": 134.112,
+          "score": 0.775,
+          "start": 133.751,
+          "word": "queen"
+        },
+        {
+          "end": 134.552,
+          "score": 0.832,
+          "start": 134.412,
+          "word": "by"
+        },
+        {
+          "end": 134.872,
+          "score": 0.815,
+          "start": 134.592,
+          "word": "developing"
+        },
+        {
+          "end": 135.012,
+          "score": 0.425,
+          "start": 134.912,
+          "word": "their"
+        },
+        {
+          "end": 135.372,
+          "score": 0.792,
+          "start": 135.072,
+          "word": "second"
+        },
+        {
+          "end": 135.713,
+          "score": 0.642,
+          "start": 135.433,
+          "word": "knight."
+        }
+      ]
+    },
+    {
+      "end": 149.744,
+      "start": 136.313,
+      "text": "Unfortunately, what this misses is when we moved our bishop, we meant we had two pieces now attacking that pawn, which means the queen can take it, attack the king, and also it's checkmate because the queen is guarded by the bishop and the king has nowhere to go.",
+      "words": [
+        {
+          "end": 136.894,
+          "score": 0.415,
+          "start": 136.313,
+          "word": "Unfortunately,"
+        },
+        {
+          "end": 136.994,
+          "score": 0.658,
+          "start": 136.914,
+          "word": "what"
+        },
+        {
+          "end": 137.114,
+          "score": 0.589,
+          "start": 137.014,
+          "word": "this"
+        },
+        {
+          "end": 137.434,
+          "score": 0.829,
+          "start": 137.154,
+          "word": "misses"
+        },
+        {
+          "end": 137.714,
+          "score": 0.726,
+          "start": 137.554,
+          "word": "is"
+        },
+        {
+          "end": 138.255,
+          "score": 0.924,
+          "start": 138.135,
+          "word": "when"
+        },
+        {
+          "end": 138.355,
+          "score": 0.936,
+          "start": 138.275,
+          "word": "we"
+        },
+        {
+          "end": 138.535,
+          "score": 0.873,
+          "start": 138.395,
+          "word": "moved"
+        },
+        {
+          "end": 138.655,
+          "score": 0.944,
+          "start": 138.555,
+          "word": "our"
+        },
+        {
+          "end": 139.075,
+          "score": 0.854,
+          "start": 138.715,
+          "word": "bishop,"
+        },
+        {
+          "end": 139.275,
+          "score": 0.854,
+          "start": 139.155,
+          "word": "we"
+        },
+        {
+          "end": 139.416,
+          "score": 0.791,
+          "start": 139.295,
+          "word": "meant"
+        },
+        {
+          "end": 139.516,
+          "score": 0.864,
+          "start": 139.436,
+          "word": "we"
+        },
+        {
+          "end": 139.676,
+          "score": 0.869,
+          "start": 139.556,
+          "word": "had"
+        },
+        {
+          "end": 140.096,
+          "score": 0.835,
+          "start": 139.876,
+          "word": "two"
+        },
+        {
+          "end": 140.556,
+          "score": 0.729,
+          "start": 140.156,
+          "word": "pieces"
+        },
+        {
+          "end": 141.017,
+          "score": 0.901,
+          "start": 140.857,
+          "word": "now"
+        },
+        {
+          "end": 141.317,
+          "score": 0.841,
+          "start": 141.037,
+          "word": "attacking"
+        },
+        {
+          "end": 141.437,
+          "score": 0.421,
+          "start": 141.337,
+          "word": "that"
+        },
+        {
+          "end": 141.697,
+          "score": 0.496,
+          "start": 141.477,
+          "word": "pawn,"
+        },
+        {
+          "end": 141.837,
+          "score": 0.901,
+          "start": 141.717,
+          "word": "which"
+        },
+        {
+          "end": 142.018,
+          "score": 0.959,
+          "start": 141.877,
+          "word": "means"
+        },
+        {
+          "end": 142.138,
+          "score": 0.547,
+          "start": 142.058,
+          "word": "the"
+        },
+        {
+          "end": 142.378,
+          "score": 0.896,
+          "start": 142.178,
+          "word": "queen"
+        },
+        {
+          "end": 142.538,
+          "score": 0.965,
+          "start": 142.418,
+          "word": "can"
+        },
+        {
+          "end": 142.858,
+          "score": 0.876,
+          "start": 142.598,
+          "word": "take"
+        },
+        {
+          "end": 142.938,
+          "score": 0.69,
+          "start": 142.878,
+          "word": "it,"
+        },
+        {
+          "end": 144.52,
+          "score": 0.868,
+          "start": 143.419,
+          "word": "attack"
+        },
+        {
+          "end": 144.64,
+          "score": 0.974,
+          "start": 144.56,
+          "word": "the"
+        },
+        {
+          "end": 144.98,
+          "score": 0.659,
+          "start": 144.7,
+          "word": "king,"
+        },
+        {
+          "end": 145.3,
+          "score": 0.795,
+          "start": 145.2,
+          "word": "and"
+        },
+        {
+          "end": 145.881,
+          "score": 0.853,
+          "start": 145.48,
+          "word": "also"
+        },
+        {
+          "end": 146.361,
+          "score": 0.858,
+          "start": 146.281,
+          "word": "it's"
+        },
+        {
+          "end": 146.821,
+          "score": 0.864,
+          "start": 146.401,
+          "word": "checkmate"
+        },
+        {
+          "end": 147.142,
+          "score": 0.866,
+          "start": 146.861,
+          "word": "because"
+        },
+        {
+          "end": 147.562,
+          "score": 0.972,
+          "start": 147.482,
+          "word": "the"
+        },
+        {
+          "end": 147.802,
+          "score": 0.77,
+          "start": 147.602,
+          "word": "queen"
+        },
+        {
+          "end": 147.902,
+          "score": 0.738,
+          "start": 147.842,
+          "word": "is"
+        },
+        {
+          "end": 148.242,
+          "score": 0.805,
+          "start": 147.962,
+          "word": "guarded"
+        },
+        {
+          "end": 148.603,
+          "score": 0.832,
+          "start": 148.483,
+          "word": "by"
+        },
+        {
+          "end": 148.703,
+          "score": 0.6,
+          "start": 148.643,
+          "word": "the"
+        },
+        {
+          "end": 148.923,
+          "score": 0.764,
+          "start": 148.743,
+          "word": "bishop"
+        },
+        {
+          "end": 149.003,
+          "score": 0,
+          "start": 148.943,
+          "word": "and"
+        },
+        {
+          "end": 149.103,
+          "score": 0.104,
+          "start": 149.023,
+          "word": "the"
+        },
+        {
+          "end": 149.243,
+          "score": 0.862,
+          "start": 149.123,
+          "word": "king"
+        },
+        {
+          "end": 149.363,
+          "score": 0.743,
+          "start": 149.263,
+          "word": "has"
+        },
+        {
+          "end": 149.563,
+          "score": 0.386,
+          "start": 149.403,
+          "word": "nowhere"
+        },
+        {
+          "end": 149.643,
+          "score": 0.744,
+          "start": 149.583,
+          "word": "to"
+        },
+        {
+          "end": 149.744,
+          "score": 0.993,
+          "start": 149.663,
+          "word": "go."
+        }
+      ]
+    },
+    {
+      "end": 159.071,
+      "start": 151.065,
+      "text": " And so that is a way that you can commonly win quickly from here if you're playing beginners in chess.",
+      "words": [
+        {
+          "end": 151.145,
+          "score": 0.901,
+          "start": 151.065,
+          "word": "And"
+        },
+        {
+          "end": 151.485,
+          "score": 0.762,
+          "start": 151.225,
+          "word": "so"
+        },
+        {
+          "end": 151.745,
+          "score": 0.869,
+          "start": 151.565,
+          "word": "that"
+        },
+        {
+          "end": 151.985,
+          "score": 0.709,
+          "start": 151.885,
+          "word": "is"
+        },
+        {
+          "end": 152.025,
+          "score": 0.001,
+          "start": 152.005,
+          "word": "a"
+        },
+        {
+          "end": 153.827,
+          "score": 0.87,
+          "start": 153.646,
+          "word": "way"
+        },
+        {
+          "end": 153.947,
+          "score": 0.595,
+          "start": 153.867,
+          "word": "that"
+        },
+        {
+          "end": 154.047,
+          "score": 0.737,
+          "start": 153.967,
+          "word": "you"
+        },
+        {
+          "end": 154.227,
+          "score": 0.847,
+          "start": 154.087,
+          "word": "can"
+        },
+        {
+          "end": 154.887,
+          "score": 0.909,
+          "start": 154.387,
+          "word": "commonly"
+        },
+        {
+          "end": 155.448,
+          "score": 0.808,
+          "start": 155.208,
+          "word": "win"
+        },
+        {
+          "end": 155.788,
+          "score": 0.816,
+          "start": 155.508,
+          "word": "quickly"
+        },
+        {
+          "end": 155.948,
+          "score": 0.769,
+          "start": 155.808,
+          "word": "from"
+        },
+        {
+          "end": 156.349,
+          "score": 0.643,
+          "start": 156.008,
+          "word": "here"
+        },
+        {
+          "end": 156.689,
+          "score": 0.839,
+          "start": 156.589,
+          "word": "if"
+        },
+        {
+          "end": 157.069,
+          "score": 0.746,
+          "start": 156.729,
+          "word": "you're"
+        },
+        {
+          "end": 157.63,
+          "score": 0.787,
+          "start": 157.189,
+          "word": "playing"
+        },
+        {
+          "end": 158.61,
+          "score": 0.693,
+          "start": 158.29,
+          "word": "beginners"
+        },
+        {
+          "end": 158.71,
+          "score": 0.392,
+          "start": 158.63,
+          "word": "in"
+        },
+        {
+          "end": 159.071,
+          "score": 0.838,
+          "start": 158.73,
+          "word": "chess."
+        }
+      ]
+    },
+    {
+      "end": 162.133,
+      "start": 159.831,
+      "text": "Lots of moves don't prevent that threat.",
+      "words": [
+        {
+          "end": 160.051,
+          "score": 0.884,
+          "start": 159.831,
+          "word": "Lots"
+        },
+        {
+          "end": 160.171,
+          "score": 0.816,
+          "start": 160.111,
+          "word": "of"
+        },
+        {
+          "end": 160.572,
+          "score": 0.436,
+          "start": 160.231,
+          "word": "moves"
+        },
+        {
+          "end": 161.252,
+          "score": 0.875,
+          "start": 160.992,
+          "word": "don't"
+        },
+        {
+          "end": 161.613,
+          "score": 0.791,
+          "start": 161.352,
+          "word": "prevent"
+        },
+        {
+          "end": 161.773,
+          "score": 0.915,
+          "start": 161.653,
+          "word": "that"
+        },
+        {
+          "end": 162.133,
+          "score": 0.91,
+          "start": 161.853,
+          "word": "threat."
+        }
+      ]
+    },
+    {
+      "end": 168.378,
+      "start": 162.193,
+      "text": "So anything that leaves those lines open to this pawn that might be, for example, moving this bishop here, still got checkmate.",
+      "words": [
+        {
+          "end": 162.313,
+          "score": 0.986,
+          "start": 162.193,
+          "word": "So"
+        },
+        {
+          "end": 162.593,
+          "score": 0.989,
+          "start": 162.373,
+          "word": "anything"
+        },
+        {
+          "end": 162.733,
+          "score": 0.862,
+          "start": 162.633,
+          "word": "that"
+        },
+        {
+          "end": 162.934,
+          "score": 0.852,
+          "start": 162.773,
+          "word": "leaves"
+        },
+        {
+          "end": 163.074,
+          "score": 0.896,
+          "start": 162.954,
+          "word": "those"
+        },
+        {
+          "end": 163.334,
+          "score": 0.694,
+          "start": 163.114,
+          "word": "lines"
+        },
+        {
+          "end": 163.594,
+          "score": 0.905,
+          "start": 163.434,
+          "word": "open"
+        },
+        {
+          "end": 163.654,
+          "score": 0.992,
+          "start": 163.614,
+          "word": "to"
+        },
+        {
+          "end": 163.794,
+          "score": 0.875,
+          "start": 163.694,
+          "word": "this"
+        },
+        {
+          "end": 164.235,
+          "score": 0.84,
+          "start": 163.854,
+          "word": "pawn"
+        },
+        {
+          "end": 164.655,
+          "score": 0.97,
+          "start": 164.535,
+          "word": "that"
+        },
+        {
+          "end": 164.895,
+          "score": 0.883,
+          "start": 164.715,
+          "word": "might"
+        },
+        {
+          "end": 165.015,
+          "score": 0.998,
+          "start": 164.935,
+          "word": "be,"
+        },
+        {
+          "end": 165.135,
+          "score": 0.836,
+          "start": 165.055,
+          "word": "for"
+        },
+        {
+          "end": 165.616,
+          "score": 0.893,
+          "start": 165.175,
+          "word": "example,"
+        },
+        {
+          "end": 166.236,
+          "score": 0.531,
+          "start": 165.636,
+          "word": "moving"
+        },
+        {
+          "end": 166.396,
+          "score": 0.315,
+          "start": 166.256,
+          "word": "this"
+        },
+        {
+          "end": 166.656,
+          "score": 0.85,
+          "start": 166.416,
+          "word": "bishop"
+        },
+        {
+          "end": 167.137,
+          "score": 0.709,
+          "start": 166.776,
+          "word": "here,"
+        },
+        {
+          "end": 167.617,
+          "score": 0.872,
+          "start": 167.457,
+          "word": "still"
+        },
+        {
+          "end": 167.737,
+          "score": 0.346,
+          "start": 167.637,
+          "word": "got"
+        },
+        {
+          "end": 168.378,
+          "score": 0.878,
+          "start": 167.777,
+          "word": "checkmate."
+        }
+      ]
+    },
+    {
+      "end": 176.024,
+      "start": 168.718,
+      "text": "Or if not moving that bishop here, maybe this pawn and moving that forward one space still leaves a line open to take.",
+      "words": [
+        {
+          "end": 168.798,
+          "score": 0.526,
+          "start": 168.718,
+          "word": "Or"
+        },
+        {
+          "end": 168.898,
+          "score": 0.75,
+          "start": 168.838,
+          "word": "if"
+        },
+        {
+          "end": 168.998,
+          "score": 0.998,
+          "start": 168.938,
+          "word": "not"
+        },
+        {
+          "end": 169.178,
+          "score": 0.816,
+          "start": 169.038,
+          "word": "moving"
+        },
+        {
+          "end": 169.278,
+          "score": 0.012,
+          "start": 169.198,
+          "word": "that"
+        },
+        {
+          "end": 169.499,
+          "score": 0.83,
+          "start": 169.298,
+          "word": "bishop"
+        },
+        {
+          "end": 169.879,
+          "score": 0.601,
+          "start": 169.539,
+          "word": "here,"
+        },
+        {
+          "end": 171.04,
+          "score": 0.897,
+          "start": 170.86,
+          "word": "maybe"
+        },
+        {
+          "end": 171.18,
+          "score": 0.735,
+          "start": 171.06,
+          "word": "this"
+        },
+        {
+          "end": 171.56,
+          "score": 0.853,
+          "start": 171.24,
+          "word": "pawn"
+        },
+        {
+          "end": 171.7,
+          "score": 0.565,
+          "start": 171.58,
+          "word": "and"
+        },
+        {
+          "end": 171.96,
+          "score": 0.091,
+          "start": 171.8,
+          "word": "moving"
+        },
+        {
+          "end": 172.101,
+          "score": 0.367,
+          "start": 171.98,
+          "word": "that"
+        },
+        {
+          "end": 172.381,
+          "score": 0.821,
+          "start": 172.121,
+          "word": "forward"
+        },
+        {
+          "end": 172.921,
+          "score": 0.837,
+          "start": 172.741,
+          "word": "one"
+        },
+        {
+          "end": 173.422,
+          "score": 0.937,
+          "start": 173.021,
+          "word": "space"
+        },
+        {
+          "end": 173.742,
+          "score": 0.919,
+          "start": 173.502,
+          "word": "still"
+        },
+        {
+          "end": 174.022,
+          "score": 0.818,
+          "start": 173.782,
+          "word": "leaves"
+        },
+        {
+          "end": 174.062,
+          "score": 0.001,
+          "start": 174.042,
+          "word": "a"
+        },
+        {
+          "end": 174.582,
+          "score": 0.833,
+          "start": 174.442,
+          "word": "line"
+        },
+        {
+          "end": 174.863,
+          "score": 0.861,
+          "start": 174.642,
+          "word": "open"
+        },
+        {
+          "end": 175.703,
+          "score": 0.912,
+          "start": 174.883,
+          "word": "to"
+        },
+        {
+          "end": 176.024,
+          "score": 0.849,
+          "start": 175.823,
+          "word": "take."
+        }
+      ]
+    },
+    {
+      "end": 177.445,
+      "start": 176.784,
+      "text": " and have checkmate.",
+      "words": [
+        {
+          "end": 176.904,
+          "score": 0.834,
+          "start": 176.784,
+          "word": "and"
+        },
+        {
+          "end": 177.064,
+          "score": 0.48,
+          "start": 176.944,
+          "word": "have"
+        },
+        {
+          "end": 177.445,
+          "score": 0.661,
+          "start": 177.104,
+          "word": "checkmate."
+        }
+      ]
+    },
+    {
+      "end": 184.011,
+      "start": 178.346,
+      "text": "So lots of ways that black can air here and leave them open for a quick checkmate.",
+      "words": [
+        {
+          "end": 178.546,
+          "score": 0.716,
+          "start": 178.346,
+          "word": "So"
+        },
+        {
+          "end": 179.106,
+          "score": 0.78,
+          "start": 178.906,
+          "word": "lots"
+        },
+        {
+          "end": 179.206,
+          "score": 0.783,
+          "start": 179.146,
+          "word": "of"
+        },
+        {
+          "end": 179.507,
+          "score": 0.847,
+          "start": 179.246,
+          "word": "ways"
+        },
+        {
+          "end": 179.807,
+          "score": 0.859,
+          "start": 179.567,
+          "word": "that"
+        },
+        {
+          "end": 180.147,
+          "score": 0.961,
+          "start": 179.887,
+          "word": "black"
+        },
+        {
+          "end": 180.628,
+          "score": 0.946,
+          "start": 180.247,
+          "word": "can"
+        },
+        {
+          "end": 181.288,
+          "score": 0.673,
+          "start": 181.088,
+          "word": "air"
+        },
+        {
+          "end": 181.629,
+          "score": 0.864,
+          "start": 181.388,
+          "word": "here"
+        },
+        {
+          "end": 181.989,
+          "score": 0.885,
+          "start": 181.849,
+          "word": "and"
+        },
+        {
+          "end": 182.91,
+          "score": 0.947,
+          "start": 182.77,
+          "word": "leave"
+        },
+        {
+          "end": 183.03,
+          "score": 0.217,
+          "start": 182.93,
+          "word": "them"
+        },
+        {
+          "end": 183.25,
+          "score": 0.952,
+          "start": 183.09,
+          "word": "open"
+        },
+        {
+          "end": 183.35,
+          "score": 0.865,
+          "start": 183.27,
+          "word": "for"
+        },
+        {
+          "end": 183.45,
+          "score": 0.351,
+          "start": 183.39,
+          "word": "a"
+        },
+        {
+          "end": 183.57,
+          "score": 0.207,
+          "start": 183.47,
+          "word": "quick"
+        },
+        {
+          "end": 184.011,
+          "score": 0.534,
+          "start": 183.59,
+          "word": "checkmate."
+        }
+      ]
+    },
+    {
+      "end": 187.354,
+      "start": 184.411,
+      "text": "Now, something that they can actually do is they can actually push this pawn forward here.",
+      "words": [
+        {
+          "end": 184.511,
+          "score": 0.842,
+          "start": 184.411,
+          "word": "Now,"
+        },
+        {
+          "end": 184.751,
+          "score": 0.942,
+          "start": 184.551,
+          "word": "something"
+        },
+        {
+          "end": 184.912,
+          "score": 0.771,
+          "start": 184.791,
+          "word": "that"
+        },
+        {
+          "end": 185.152,
+          "score": 0.67,
+          "start": 184.972,
+          "word": "they"
+        },
+        {
+          "end": 185.272,
+          "score": 0.912,
+          "start": 185.172,
+          "word": "can"
+        },
+        {
+          "end": 185.552,
+          "score": 0.813,
+          "start": 185.312,
+          "word": "actually"
+        },
+        {
+          "end": 185.672,
+          "score": 0.998,
+          "start": 185.592,
+          "word": "do"
+        },
+        {
+          "end": 185.752,
+          "score": 0.513,
+          "start": 185.692,
+          "word": "is"
+        },
+        {
+          "end": 185.852,
+          "score": 0.993,
+          "start": 185.772,
+          "word": "they"
+        },
+        {
+          "end": 185.953,
+          "score": 0.793,
+          "start": 185.872,
+          "word": "can"
+        },
+        {
+          "end": 186.173,
+          "score": 0.867,
+          "start": 185.973,
+          "word": "actually"
+        },
+        {
+          "end": 186.393,
+          "score": 0.768,
+          "start": 186.213,
+          "word": "push"
+        },
+        {
+          "end": 186.533,
+          "score": 0.855,
+          "start": 186.413,
+          "word": "this"
+        },
+        {
+          "end": 186.813,
+          "score": 0.84,
+          "start": 186.593,
+          "word": "pawn"
+        },
+        {
+          "end": 187.114,
+          "score": 0.714,
+          "start": 186.853,
+          "word": "forward"
+        },
+        {
+          "end": 187.354,
+          "score": 0.833,
+          "start": 187.154,
+          "word": "here."
+        }
+      ]
+    },
+    {
+      "end": 195.621,
+      "start": 188.275,
+      "text": "They couldn't earlier, because we saw that left this pawn open, the queen would swoop in, and we have a check, and we won the rook.",
+      "words": [
+        {
+          "end": 188.415,
+          "score": 0.894,
+          "start": 188.275,
+          "word": "They"
+        },
+        {
+          "end": 188.815,
+          "score": 0.845,
+          "start": 188.475,
+          "word": "couldn't"
+        },
+        {
+          "end": 189.836,
+          "score": 0.811,
+          "start": 189.376,
+          "word": "earlier,"
+        },
+        {
+          "end": 190.457,
+          "score": 0.917,
+          "start": 190.277,
+          "word": "because"
+        },
+        {
+          "end": 190.557,
+          "score": 0.746,
+          "start": 190.477,
+          "word": "we"
+        },
+        {
+          "end": 190.757,
+          "score": 0.9,
+          "start": 190.597,
+          "word": "saw"
+        },
+        {
+          "end": 190.897,
+          "score": 0.975,
+          "start": 190.797,
+          "word": "that"
+        },
+        {
+          "end": 191.157,
+          "score": 0.939,
+          "start": 190.957,
+          "word": "left"
+        },
+        {
+          "end": 191.338,
+          "score": 0.823,
+          "start": 191.177,
+          "word": "this"
+        },
+        {
+          "end": 191.658,
+          "score": 0.743,
+          "start": 191.398,
+          "word": "pawn"
+        },
+        {
+          "end": 191.998,
+          "score": 0.711,
+          "start": 191.698,
+          "word": "open,"
+        },
+        {
+          "end": 192.138,
+          "score": 0.501,
+          "start": 192.038,
+          "word": "the"
+        },
+        {
+          "end": 192.639,
+          "score": 0.981,
+          "start": 192.439,
+          "word": "queen"
+        },
+        {
+          "end": 192.819,
+          "score": 0.681,
+          "start": 192.659,
+          "word": "would"
+        },
+        {
+          "end": 193.239,
+          "score": 0.871,
+          "start": 192.959,
+          "word": "swoop"
+        },
+        {
+          "end": 193.48,
+          "score": 0.758,
+          "start": 193.339,
+          "word": "in,"
+        },
+        {
+          "end": 194.36,
+          "score": 0.714,
+          "start": 194.24,
+          "word": "and"
+        },
+        {
+          "end": 194.46,
+          "score": 0.738,
+          "start": 194.38,
+          "word": "we"
+        },
+        {
+          "end": 194.581,
+          "score": 0.848,
+          "start": 194.48,
+          "word": "have"
+        },
+        {
+          "end": 194.641,
+          "score": 0.438,
+          "start": 194.601,
+          "word": "a"
+        },
+        {
+          "end": 194.921,
+          "score": 0.885,
+          "start": 194.721,
+          "word": "check,"
+        },
+        {
+          "end": 195.021,
+          "score": 0.748,
+          "start": 194.961,
+          "word": "and"
+        },
+        {
+          "end": 195.101,
+          "score": 0.574,
+          "start": 195.041,
+          "word": "we"
+        },
+        {
+          "end": 195.241,
+          "score": 0.582,
+          "start": 195.141,
+          "word": "won"
+        },
+        {
+          "end": 195.321,
+          "score": 0.053,
+          "start": 195.261,
+          "word": "the"
+        },
+        {
+          "end": 195.621,
+          "score": 0.883,
+          "start": 195.401,
+          "word": "rook."
+        }
+      ]
+    },
+    {
+      "end": 199.705,
+      "start": 196.062,
+      "text": "But here now, what's different is the blacks got this knight out.",
+      "words": [
+        {
+          "end": 196.182,
+          "score": 0.981,
+          "start": 196.062,
+          "word": "But"
+        },
+        {
+          "end": 196.622,
+          "score": 0.815,
+          "start": 196.342,
+          "word": "here"
+        },
+        {
+          "end": 197.163,
+          "score": 0.762,
+          "start": 196.642,
+          "word": "now,"
+        },
+        {
+          "end": 197.924,
+          "score": 0.882,
+          "start": 197.763,
+          "word": "what's"
+        },
+        {
+          "end": 198.184,
+          "score": 0.577,
+          "start": 197.944,
+          "word": "different"
+        },
+        {
+          "end": 198.244,
+          "score": 0.216,
+          "start": 198.204,
+          "word": "is"
+        },
+        {
+          "end": 198.324,
+          "score": 0.08,
+          "start": 198.264,
+          "word": "the"
+        },
+        {
+          "end": 198.644,
+          "score": 0.894,
+          "start": 198.344,
+          "word": "blacks"
+        },
+        {
+          "end": 199.065,
+          "score": 0.835,
+          "start": 198.925,
+          "word": "got"
+        },
+        {
+          "end": 199.225,
+          "score": 0.885,
+          "start": 199.105,
+          "word": "this"
+        },
+        {
+          "end": 199.505,
+          "score": 0.759,
+          "start": 199.285,
+          "word": "knight"
+        },
+        {
+          "end": 199.705,
+          "score": 0.487,
+          "start": 199.585,
+          "word": "out."
+        }
+      ]
+    },
+    {
+      "end": 201.847,
+      "start": 200.566,
+      "text": "And so this move here,",
+      "words": [
+        {
+          "end": 200.646,
+          "score": 0.964,
+          "start": 200.566,
+          "word": "And"
+        },
+        {
+          "end": 200.806,
+          "score": 0.737,
+          "start": 200.666,
+          "word": "so"
+        },
+        {
+          "end": 201.006,
+          "score": 0.91,
+          "start": 200.846,
+          "word": "this"
+        },
+        {
+          "end": 201.327,
+          "score": 0.802,
+          "start": 201.087,
+          "word": "move"
+        },
+        {
+          "end": 201.847,
+          "score": 0.832,
+          "start": 201.527,
+          "word": "here,"
+        }
+      ]
+    },
+    {
+      "end": 209.531,
+      "start": 202.788,
+      "text": " both stops our queen from coming in, attacks our queen, and we can't capture this pawn because the knight's there.",
+      "words": [
+        {
+          "end": 203.108,
+          "score": 0.842,
+          "start": 202.788,
+          "word": "both"
+        },
+        {
+          "end": 203.688,
+          "score": 0.855,
+          "start": 203.428,
+          "word": "stops"
+        },
+        {
+          "end": 203.828,
+          "score": 0.852,
+          "start": 203.728,
+          "word": "our"
+        },
+        {
+          "end": 204.209,
+          "score": 0.676,
+          "start": 203.868,
+          "word": "queen"
+        },
+        {
+          "end": 204.649,
+          "score": 0.694,
+          "start": 204.509,
+          "word": "from"
+        },
+        {
+          "end": 204.929,
+          "score": 0.798,
+          "start": 204.689,
+          "word": "coming"
+        },
+        {
+          "end": 205.109,
+          "score": 0.734,
+          "start": 205.009,
+          "word": "in,"
+        },
+        {
+          "end": 205.889,
+          "score": 0.73,
+          "start": 205.129,
+          "word": "attacks"
+        },
+        {
+          "end": 206.009,
+          "score": 0.968,
+          "start": 205.929,
+          "word": "our"
+        },
+        {
+          "end": 206.369,
+          "score": 0.849,
+          "start": 206.049,
+          "word": "queen,"
+        },
+        {
+          "end": 207.15,
+          "score": 0.828,
+          "start": 206.99,
+          "word": "and"
+        },
+        {
+          "end": 207.45,
+          "score": 0.728,
+          "start": 207.33,
+          "word": "we"
+        },
+        {
+          "end": 207.89,
+          "score": 0.704,
+          "start": 207.49,
+          "word": "can't"
+        },
+        {
+          "end": 208.29,
+          "score": 0.877,
+          "start": 207.99,
+          "word": "capture"
+        },
+        {
+          "end": 208.43,
+          "score": 0.803,
+          "start": 208.31,
+          "word": "this"
+        },
+        {
+          "end": 208.73,
+          "score": 0.783,
+          "start": 208.47,
+          "word": "pawn"
+        },
+        {
+          "end": 208.991,
+          "score": 0.902,
+          "start": 208.75,
+          "word": "because"
+        },
+        {
+          "end": 209.071,
+          "score": 0.521,
+          "start": 209.011,
+          "word": "the"
+        },
+        {
+          "end": 209.291,
+          "score": 0.761,
+          "start": 209.111,
+          "word": "knight's"
+        },
+        {
+          "end": 209.531,
+          "score": 0.734,
+          "start": 209.311,
+          "word": "there."
+        }
+      ]
+    },
+    {
+      "end": 211.472,
+      "start": 209.891,
+      "text": "So maybe let's just move our queen around.",
+      "words": [
+        {
+          "end": 210.071,
+          "score": 0.738,
+          "start": 209.891,
+          "word": "So"
+        },
+        {
+          "end": 210.311,
+          "score": 0.85,
+          "start": 210.131,
+          "word": "maybe"
+        },
+        {
+          "end": 210.451,
+          "score": 0.445,
+          "start": 210.331,
+          "word": "let's"
+        },
+        {
+          "end": 210.571,
+          "score": 0.463,
+          "start": 210.471,
+          "word": "just"
+        },
+        {
+          "end": 210.751,
+          "score": 0.542,
+          "start": 210.591,
+          "word": "move"
+        },
+        {
+          "end": 210.891,
+          "score": 0.848,
+          "start": 210.791,
+          "word": "our"
+        },
+        {
+          "end": 211.091,
+          "score": 0.98,
+          "start": 210.931,
+          "word": "queen"
+        },
+        {
+          "end": 211.472,
+          "score": 0.853,
+          "start": 211.131,
+          "word": "around."
+        }
+      ]
+    },
+    {
+      "end": 214.853,
+      "start": 211.872,
+      "text": "And now black might think, great, we've survived the danger.",
+      "words": [
+        {
+          "end": 211.952,
+          "score": 0.551,
+          "start": 211.872,
+          "word": "And"
+        },
+        {
+          "end": 212.352,
+          "score": 0.643,
+          "start": 211.972,
+          "word": "now"
+        },
+        {
+          "end": 212.752,
+          "score": 0.959,
+          "start": 212.532,
+          "word": "black"
+        },
+        {
+          "end": 212.932,
+          "score": 0.899,
+          "start": 212.772,
+          "word": "might"
+        },
+        {
+          "end": 213.132,
+          "score": 0.811,
+          "start": 212.952,
+          "word": "think,"
+        },
+        {
+          "end": 213.592,
+          "score": 0.902,
+          "start": 213.232,
+          "word": "great,"
+        },
+        {
+          "end": 213.752,
+          "score": 0.284,
+          "start": 213.632,
+          "word": "we've"
+        },
+        {
+          "end": 214.193,
+          "score": 0.782,
+          "start": 213.772,
+          "word": "survived"
+        },
+        {
+          "end": 214.273,
+          "score": 0.175,
+          "start": 214.213,
+          "word": "the"
+        },
+        {
+          "end": 214.853,
+          "score": 0.802,
+          "start": 214.353,
+          "word": "danger."
+        }
+      ]
+    },
+    {
+      "end": 216.514,
+      "start": 215.153,
+      "text": "Let's move the bishop out to develop.",
+      "words": [
+        {
+          "end": 215.293,
+          "score": 0.757,
+          "start": 215.153,
+          "word": "Let's"
+        },
+        {
+          "end": 215.433,
+          "score": 0.454,
+          "start": 215.313,
+          "word": "move"
+        },
+        {
+          "end": 215.513,
+          "score": 0.025,
+          "start": 215.453,
+          "word": "the"
+        },
+        {
+          "end": 215.733,
+          "score": 0.757,
+          "start": 215.533,
+          "word": "bishop"
+        },
+        {
+          "end": 215.913,
+          "score": 0.984,
+          "start": 215.793,
+          "word": "out"
+        },
+        {
+          "end": 216.033,
+          "score": 0.677,
+          "start": 215.953,
+          "word": "to"
+        },
+        {
+          "end": 216.514,
+          "score": 0.861,
+          "start": 216.073,
+          "word": "develop."
+        }
+      ]
+    },
+    {
+      "end": 220.915,
+      "start": 217.154,
+      "text": "What this misses is that from this new position, the queen is still attacking that pawn.",
+      "words": [
+        {
+          "end": 217.254,
+          "score": 0.875,
+          "start": 217.154,
+          "word": "What"
+        },
+        {
+          "end": 217.394,
+          "score": 0.383,
+          "start": 217.274,
+          "word": "this"
+        },
+        {
+          "end": 217.674,
+          "score": 0.846,
+          "start": 217.414,
+          "word": "misses"
+        },
+        {
+          "end": 217.794,
+          "score": 0.865,
+          "start": 217.734,
+          "word": "is"
+        },
+        {
+          "end": 217.994,
+          "score": 0.844,
+          "start": 217.834,
+          "word": "that"
+        },
+        {
+          "end": 218.194,
+          "score": 0.963,
+          "start": 218.054,
+          "word": "from"
+        },
+        {
+          "end": 218.374,
+          "score": 0.753,
+          "start": 218.214,
+          "word": "this"
+        },
+        {
+          "end": 218.514,
+          "score": 0.996,
+          "start": 218.434,
+          "word": "new"
+        },
+        {
+          "end": 218.835,
+          "score": 0.93,
+          "start": 218.554,
+          "word": "position,"
+        },
+        {
+          "end": 218.955,
+          "score": 0.234,
+          "start": 218.855,
+          "word": "the"
+        },
+        {
+          "end": 219.175,
+          "score": 0.894,
+          "start": 218.975,
+          "word": "queen"
+        },
+        {
+          "end": 219.295,
+          "score": 0.71,
+          "start": 219.215,
+          "word": "is"
+        },
+        {
+          "end": 219.675,
+          "score": 0.848,
+          "start": 219.375,
+          "word": "still"
+        },
+        {
+          "end": 220.395,
+          "score": 0.931,
+          "start": 220.015,
+          "word": "attacking"
+        },
+        {
+          "end": 220.635,
+          "score": 0.648,
+          "start": 220.435,
+          "word": "that"
+        },
+        {
+          "end": 220.915,
+          "score": 0.708,
+          "start": 220.675,
+          "word": "pawn."
+        }
+      ]
+    },
+    {
+      "end": 222.116,
+      "start": 221.256,
+      "text": "And so we can swoop in.",
+      "words": [
+        {
+          "end": 221.336,
+          "score": 0.907,
+          "start": 221.256,
+          "word": "And"
+        },
+        {
+          "end": 221.476,
+          "score": 0.842,
+          "start": 221.376,
+          "word": "so"
+        },
+        {
+          "end": 221.576,
+          "score": 0.651,
+          "start": 221.496,
+          "word": "we"
+        },
+        {
+          "end": 221.696,
+          "score": 0.996,
+          "start": 221.596,
+          "word": "can"
+        },
+        {
+          "end": 221.956,
+          "score": 0.93,
+          "start": 221.736,
+          "word": "swoop"
+        },
+        {
+          "end": 222.116,
+          "score": 0.604,
+          "start": 222.016,
+          "word": "in."
+        }
+      ]
+    },
+    {
+      "end": 224.297,
+      "start": 222.616,
+      "text": "And again, it is checkmate.",
+      "words": [
+        {
+          "end": 222.736,
+          "score": 0.544,
+          "start": 222.616,
+          "word": "And"
+        },
+        {
+          "end": 223.076,
+          "score": 0.871,
+          "start": 222.816,
+          "word": "again,"
+        },
+        {
+          "end": 223.136,
+          "score": 0,
+          "start": 223.096,
+          "word": "it"
+        },
+        {
+          "end": 223.696,
+          "score": 0.69,
+          "start": 223.596,
+          "word": "is"
+        },
+        {
+          "end": 224.297,
+          "score": 0.906,
+          "start": 223.977,
+          "word": "checkmate."
+        }
+      ]
+    },
+    {
+      "end": 236.351,
+      "start": 225.798,
+      "text": " And so this is an opening that gives you a few different ways to either checkmate or gain a huge advantage just within a few moves if your opponent doesn't know what they're doing.",
+      "words": [
+        {
+          "end": 225.898,
+          "score": 0.749,
+          "start": 225.798,
+          "word": "And"
+        },
+        {
+          "end": 226.319,
+          "score": 0.791,
+          "start": 225.998,
+          "word": "so"
+        },
+        {
+          "end": 227.16,
+          "score": 0.892,
+          "start": 226.919,
+          "word": "this"
+        },
+        {
+          "end": 227.62,
+          "score": 0.796,
+          "start": 227.46,
+          "word": "is"
+        },
+        {
+          "end": 227.941,
+          "score": 0.984,
+          "start": 227.881,
+          "word": "an"
+        },
+        {
+          "end": 228.201,
+          "score": 0.947,
+          "start": 228.001,
+          "word": "opening"
+        },
+        {
+          "end": 228.341,
+          "score": 0.891,
+          "start": 228.221,
+          "word": "that"
+        },
+        {
+          "end": 228.702,
+          "score": 0.826,
+          "start": 228.521,
+          "word": "gives"
+        },
+        {
+          "end": 228.902,
+          "score": 0.994,
+          "start": 228.762,
+          "word": "you"
+        },
+        {
+          "end": 228.942,
+          "score": 0,
+          "start": 228.922,
+          "word": "a"
+        },
+        {
+          "end": 229.963,
+          "score": 0.765,
+          "start": 229.783,
+          "word": "few"
+        },
+        {
+          "end": 230.204,
+          "score": 0.943,
+          "start": 229.983,
+          "word": "different"
+        },
+        {
+          "end": 230.464,
+          "score": 0.78,
+          "start": 230.224,
+          "word": "ways"
+        },
+        {
+          "end": 230.644,
+          "score": 0.957,
+          "start": 230.524,
+          "word": "to"
+        },
+        {
+          "end": 230.985,
+          "score": 0.717,
+          "start": 230.764,
+          "word": "either"
+        },
+        {
+          "end": 231.505,
+          "score": 0.921,
+          "start": 231.065,
+          "word": "checkmate"
+        },
+        {
+          "end": 231.645,
+          "score": 0.91,
+          "start": 231.585,
+          "word": "or"
+        },
+        {
+          "end": 231.826,
+          "score": 0.775,
+          "start": 231.665,
+          "word": "gain"
+        },
+        {
+          "end": 231.886,
+          "score": 0.995,
+          "start": 231.866,
+          "word": "a"
+        },
+        {
+          "end": 232.146,
+          "score": 0.901,
+          "start": 231.946,
+          "word": "huge"
+        },
+        {
+          "end": 232.627,
+          "score": 0.912,
+          "start": 232.166,
+          "word": "advantage"
+        },
+        {
+          "end": 233.167,
+          "score": 0.915,
+          "start": 232.947,
+          "word": "just"
+        },
+        {
+          "end": 233.568,
+          "score": 0.868,
+          "start": 233.247,
+          "word": "within"
+        },
+        {
+          "end": 233.608,
+          "score": 0,
+          "start": 233.588,
+          "word": "a"
+        },
+        {
+          "end": 234.289,
+          "score": 0.886,
+          "start": 234.129,
+          "word": "few"
+        },
+        {
+          "end": 234.629,
+          "score": 0.879,
+          "start": 234.349,
+          "word": "moves"
+        },
+        {
+          "end": 234.95,
+          "score": 0.856,
+          "start": 234.87,
+          "word": "if"
+        },
+        {
+          "end": 235.11,
+          "score": 0.732,
+          "start": 234.99,
+          "word": "your"
+        },
+        {
+          "end": 235.45,
+          "score": 0.899,
+          "start": 235.13,
+          "word": "opponent"
+        },
+        {
+          "end": 235.691,
+          "score": 0.852,
+          "start": 235.49,
+          "word": "doesn't"
+        },
+        {
+          "end": 235.871,
+          "score": 0.74,
+          "start": 235.731,
+          "word": "know"
+        },
+        {
+          "end": 235.991,
+          "score": 0.998,
+          "start": 235.911,
+          "word": "what"
+        },
+        {
+          "end": 236.151,
+          "score": 0.952,
+          "start": 236.011,
+          "word": "they're"
+        },
+        {
+          "end": 236.351,
+          "score": 0.852,
+          "start": 236.171,
+          "word": "doing."
+        }
+      ]
+    }
+  ]
+}

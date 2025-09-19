@@ -1,0 +1,46 @@
+{
+  "schema": "cmf.v0.0.1",
+  "meta": {
+    "id": "ea187d35-fdfc-493a-a758-494be154e598",
+    "title": "Fool's Mate for White",
+    "author": "Richard",
+    "createdAt": "2025-09-10T23:43:42.279Z",
+    "startingFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "durationMs": 8800,
+    "tags": [],
+    "engineHints": true,
+    "audioUrl": "/audio/fool_s_mate_for_white.webm"
+  },
+  "tracks": {
+    "mainline": [
+      {
+        "t": 3902,
+        "type": "move",
+        "san": "e4"
+      },
+      {
+        "t": 5102,
+        "type": "move",
+        "san": "f6"
+      },
+      {
+        "t": 6101,
+        "type": "move",
+        "san": "Be2",
+        "comment": "test comment?"
+      },
+      {
+        "t": 7203,
+        "type": "move",
+        "san": "g5"
+      },
+      {
+        "t": 8800,
+        "type": "move",
+        "san": "Bh5#"
+      }
+    ]
+  },
+  "overlays": {},
+  "precomputed": []
+}

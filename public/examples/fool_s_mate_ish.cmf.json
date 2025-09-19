@@ -1,0 +1,123 @@
+{
+  "schema": "cmf.v0.0.1",
+  "meta": {
+    "id": "3b2fa4a6-66c4-48f3-8607-1178ea915620",
+    "title": "Fool's Mate ish",
+    "author": "Richard",
+    "createdAt": "2025-09-11T20:37:00.421Z",
+    "startingFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "durationMs": 71802,
+    "tags": [],
+    "engineHints": true,
+    "audioUrl": "/audio/fool_s_mate_ish.m4a"
+  },
+  "tracks": {
+    "mainline": [
+      {
+        "t": 0,
+        "type": "text",
+        "text": "So we're going to look at a simple aggressive overblink plan for possible beginners for white."
+      },
+      {
+        "t": 10702,
+        "type": "move",
+        "san": "e4"
+      },
+      {
+        "t": 11324,
+        "type": "text",
+        "text": "So you play e4 and we expect something like e5 and now you play the very aggressive queen h5 and the thing that this creates is it creates a threat here onto f7 and one of the things that's common as a plan here is kind of scholar's mate so bishop comes out and when the bishop is there it adds extra threat to f7 which is checkmate and so what you might see in response is pawn being moved forward."
+      },
+      {
+        "t": 12801,
+        "type": "move",
+        "san": "e5"
+      },
+      {
+        "t": 14302,
+        "type": "move",
+        "san": "Qh5"
+      },
+      {
+        "t": 21301,
+        "type": "annotate"
+      },
+      {
+        "t": 21902,
+        "type": "annotate"
+      },
+      {
+        "t": 30502,
+        "type": "annotate"
+      },
+      {
+        "t": 31501,
+        "type": "annotate"
+      },
+      {
+        "t": 35202,
+        "type": "annotate"
+      },
+      {
+        "t": 36002,
+        "type": "annotate"
+      },
+      {
+        "t": 41002,
+        "type": "annotate"
+      },
+      {
+        "t": 41702,
+        "type": "annotate"
+      },
+      {
+        "t": 46302,
+        "type": "move",
+        "san": "g6"
+      },
+      {
+        "t": 48693,
+        "type": "text",
+        "text": "Now if this happens you have the very lovely queen 2e5 and you have a fork of both king and rook."
+      },
+      {
+        "t": 56402,
+        "type": "move",
+        "san": "Qxe5+"
+      },
+      {
+        "t": 63702,
+        "type": "annotate"
+      },
+      {
+        "t": 64207,
+        "type": "annotate"
+      },
+      {
+        "t": 65102,
+        "type": "annotate"
+      },
+      {
+        "t": 65702,
+        "type": "annotate"
+      },
+      {
+        "t": 70501,
+        "type": "move",
+        "san": "Be7"
+      },
+      {
+        "t": 71010,
+        "type": "text",
+        "text": "So maybe we should block you into rook."
+      },
+      {
+        "t": 71802,
+        "type": "move",
+        "san": "Qxh8"
+      }
+    ]
+  },
+  "overlays": {},
+  "precomputed": []
+}
